@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_EggMaskSmile_0: -6261865524401208900
+      SPS_EggMaskSmile_1: -3911524967936546661
+      SPS_EggMaskSmile_10: -1846127297224856216
+      SPS_EggMaskSmile_11: 7276949507911219478
+      SPS_EggMaskSmile_12: 116048768353842083
+      SPS_EggMaskSmile_13: 7922798819088616818
+      SPS_EggMaskSmile_14: 1815343605513878316
+      SPS_EggMaskSmile_15: 5521307625056812028
+      SPS_EggMaskSmile_16: -679509083450576375
+      SPS_EggMaskSmile_17: -7212633294737838517
+      SPS_EggMaskSmile_18: 4583069577820160058
+      SPS_EggMaskSmile_19: 8818627793999744065
+      SPS_EggMaskSmile_2: 6726402089545220377
+      SPS_EggMaskSmile_20: -4875113197148230732
+      SPS_EggMaskSmile_21: -6948150845113160553
+      SPS_EggMaskSmile_22: -6668209646681537883
+      SPS_EggMaskSmile_23: -9108709509732863749
+      SPS_EggMaskSmile_3: -6532802516398387689
+      SPS_EggMaskSmile_4: 8726393001317346228
+      SPS_EggMaskSmile_5: 5879396845655311841
+      SPS_EggMaskSmile_6: -4269386392867481548
+      SPS_EggMaskSmile_7: 3593010023871355204
+      SPS_EggMaskSmile_8: 7521909316027719922
+      SPS_EggMaskSmile_9: -8734816051302200639
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

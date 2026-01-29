@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_EggMaskEyes_NoBG_0: -4104345223556005034
+      SPS_EggMaskEyes_NoBG_1: 8799819254941549826
+      SPS_EggMaskEyes_NoBG_10: 652083033961171132
+      SPS_EggMaskEyes_NoBG_11: 2746542364731207105
+      SPS_EggMaskEyes_NoBG_12: 28049642194469557
+      SPS_EggMaskEyes_NoBG_13: -9160797344229091780
+      SPS_EggMaskEyes_NoBG_14: -3557312914367089278
+      SPS_EggMaskEyes_NoBG_15: 8533745369451544484
+      SPS_EggMaskEyes_NoBG_16: -5376501335470352859
+      SPS_EggMaskEyes_NoBG_17: -4832474194727214337
+      SPS_EggMaskEyes_NoBG_18: -7067407484761235984
+      SPS_EggMaskEyes_NoBG_19: 3632832575002219218
+      SPS_EggMaskEyes_NoBG_2: -7806730821570283502
+      SPS_EggMaskEyes_NoBG_20: 914853357814162437
+      SPS_EggMaskEyes_NoBG_21: -3003093721041894965
+      SPS_EggMaskEyes_NoBG_22: -8370136146505548259
+      SPS_EggMaskEyes_NoBG_23: 2906164789812470955
+      SPS_EggMaskEyes_NoBG_3: 1253669014497202068
+      SPS_EggMaskEyes_NoBG_4: 1445752470843941084
+      SPS_EggMaskEyes_NoBG_5: 6142571666014462193
+      SPS_EggMaskEyes_NoBG_6: -8527027850995896465
+      SPS_EggMaskEyes_NoBG_7: -6989929593713352285
+      SPS_EggMaskEyes_NoBG_8: -8717152868566240376
+      SPS_EggMaskEyes_NoBG_9: 4267581199995099934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
