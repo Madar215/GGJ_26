@@ -1450,7 +1450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxPrefab1: {fileID: 1826160276}
   vfxPrefab2: {fileID: 662458115}
-  spawnPoint: {fileID: 1015372973}
+  spawnPoint: {fileID: 0}
   uiParent: {fileID: 0}
   destroyAfter: 3
 --- !u!4 &677039792
@@ -1462,7 +1462,7 @@ Transform:
   m_GameObject: {fileID: 677039790}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.175913, y: -3.0073779, z: 1480.3789}
+  m_LocalPosition: {x: 4.66, y: 3.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1996,11 +1996,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5618d6d3f2e5954ca1924e6654af2f9, type: 3}
---- !u!4 &1015372973 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1357145368074605318, guid: e09cc84b41ff8da44b021aaf9472161b, type: 3}
-  m_PrefabInstance: {fileID: 866734736}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1115510126 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7695089746632776116, guid: e09cc84b41ff8da44b021aaf9472161b, type: 3}
@@ -2085,7 +2080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxPrefab1: {fileID: 1826160276}
   vfxPrefab2: {fileID: 662458115}
-  spawnPoint: {fileID: 1231933086}
+  spawnPoint: {fileID: 0}
   uiParent: {fileID: 0}
   destroyAfter: 3
 --- !u!4 &1217966069
@@ -2097,17 +2092,12 @@ Transform:
   m_GameObject: {fileID: 1217966067}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.175913, y: -3.0073779, z: 1480.3789}
+  m_LocalPosition: {x: -4.53, y: 3.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1231933086 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1357145368074605318, guid: e09cc84b41ff8da44b021aaf9472161b, type: 3}
-  m_PrefabInstance: {fileID: 343534823115045216}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1382828611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,7 +2387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxPrefab1: {fileID: 64863263}
   vfxPrefab2: {fileID: 1176303496}
-  spawnPoint: {fileID: 1231933086}
+  spawnPoint: {fileID: 1457653913}
   uiParent: {fileID: 0}
   destroyAfter: 3
 --- !u!4 &1457653913
@@ -2409,7 +2399,7 @@ Transform:
   m_GameObject: {fileID: 1457653911}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.175913, y: -3.0073779, z: 1480.3789}
+  m_LocalPosition: {x: -4.52, y: -0.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2850,7 +2840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxPrefab1: {fileID: 64863263}
   vfxPrefab2: {fileID: 1176303496}
-  spawnPoint: {fileID: 1015372973}
+  spawnPoint: {fileID: 0}
   uiParent: {fileID: 0}
   destroyAfter: 3
 --- !u!4 &1906749096
@@ -2862,7 +2852,7 @@ Transform:
   m_GameObject: {fileID: 1906749094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.175913, y: -3.0073779, z: 1480.3789}
+  m_LocalPosition: {x: 4.55, y: -0.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
