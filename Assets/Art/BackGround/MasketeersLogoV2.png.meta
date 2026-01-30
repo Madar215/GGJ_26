@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MasketeersLogoV2_0: 8816197332954004861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

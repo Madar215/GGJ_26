@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Input;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,6 +13,14 @@ namespace Managers {
         [SerializeField] private InputReader inputReader;
         [SerializeField] private ColorSettings colorSettings;
         [SerializeField] private AudioManager audioManager;
+
+        [Header("Score VFX")]
+
+        [SerializeField] private UIButtonParticleVFX p1WinVFX;
+        [SerializeField] private UIButtonParticleVFX p1LoseVFX;
+
+        [SerializeField] private UIButtonParticleVFX p2WinVFX;
+        [SerializeField] private UIButtonParticleVFX p2LoseVFX;
 
         [Header("Settings")] 
         [SerializeField] private float startOverTime = 3f;
@@ -93,35 +101,54 @@ namespace Managers {
             _canInput = true;
         }
 
-        private void CheckWinForP1(bool checkColor) {
-            
-            if (checkColor) {
+        private void CheckWinForP1(bool checkColor)
+        {
+            if (checkColor)
+            {
+                // ✅ P1 wins
                 _p1ScoreNum++;
-                audioManager.PlaySFX(audioManager.Win);
+
+                if (p1WinVFX != null) p1WinVFX.PlayVFX();
+                if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
-            else {
+            else
+            {
+                // ❌ P1 wrong → P2 wins
                 _p2ScoreNum++;
-                audioManager.PlaySFX(audioManager.Lose);
+
+                if (p2WinVFX != null) p2WinVFX.PlayVFX();
+                if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
 
             OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
             _startOverTimer.Start();
         }
-        
-        private void CheckWinForP2(bool checkColor) {
-            if (checkColor) {
+
+
+        private void CheckWinForP2(bool checkColor)
+        {
+            if (checkColor)
+            {
+                // ✅ P2 wins
                 _p2ScoreNum++;
-                audioManager.PlaySFX(audioManager.Win);
+
+                if (p2WinVFX != null) p2WinVFX.PlayVFX();
+                if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
-            else {
+            else
+            {
+                // ❌ P2 wrong → P1 wins
                 _p1ScoreNum++;
-                audioManager.PlaySFX(audioManager.Lose);
+
+                if (p1WinVFX != null) p1WinVFX.PlayVFX();
+                if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
 
             OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
             _startOverTimer.Start();
         }
-        
+
+
         #region Inputs Functions
 
         // P1
