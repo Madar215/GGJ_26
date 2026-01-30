@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Mask;
 using UnityEngine;
@@ -38,8 +39,22 @@ namespace Managers {
             p2Mask.SetSpriteColor(p2CorrectColor);
         }
 
+        private void MakeRandomMask(EnumBank.Players player) {
+            if (player == EnumBank.Players.P1) {
+                var p1Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+                var p1CorrectColor = (EnumBank.ColorOptions)p1Random;
+                p1Mask.SetSpriteColor(p1CorrectColor);
+            }
+
+            if (player == EnumBank.Players.P2) {
+                var p2Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+                var p2CorrectColor = (EnumBank.ColorOptions)p2Random;
+                p2Mask.SetSpriteColor(p2CorrectColor);
+            }
+        }
+
         public void MakeRandomColors(List<ColorButton> colorButtons, EnumBank.Players player) {
-            OnRoundStart();
+            MakeRandomMask(player);
             
             var copiedColors = ShuffleAndReturn(_colorOptions);
             var copiedColorNames = ShuffleAndReturn(_colorNames);
