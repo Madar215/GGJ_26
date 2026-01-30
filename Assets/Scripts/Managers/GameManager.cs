@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using Utilities;
 
-namespace Managers {
-    public class GameManager : MonoBehaviour {
+namespace Managers
+{
+    public class GameManager : MonoBehaviour
+    {
         [Header("Refs")]
         [SerializeField] private UiManager uiManager;
         [SerializeField] private Mask.Mask p1Mask;
@@ -22,32 +24,36 @@ namespace Managers {
         [SerializeField] private UIButtonParticleVFX p2WinVFX;
         [SerializeField] private UIButtonParticleVFX p2LoseVFX;
 
-        [Header("Settings")] 
+        [Header("Settings")]
         [SerializeField] private float startOverTime = 3f;
-        
+
         public readonly Dictionary<EnumBank.ColorOptions, ColorData> ColorDataList = new();
-        
+
         private bool _canInput = true;
-        
+
         private int _p1ScoreNum;
         private int _p2ScoreNum;
 
         private CountdownTimer _startOverTimer;
-        
+
         // Events
         public event UnityAction OnRoundStart;
         public event UnityAction<int, int> OnRoundEnd;
         public event UnityAction<EnumBank.Players> OnMaskChange;
 
-        private void Awake() {
+
+        private void Awake()
+        {
             _startOverTimer = new CountdownTimer(startOverTime);
         }
 
-        private void Update() {
+        private void Update()
+        {
             _startOverTimer.Tick(Time.deltaTime);
         }
 
-        private void OnEnable() {
+        private void OnEnable()
+        {
             // Timers
             _startOverTimer.OnTimerStop += StartRound;
             // P1
@@ -66,7 +72,8 @@ namespace Managers {
             inputReader.P2BottomRight += OnP2BottomRight;
         }
 
-        private void OnDisable() {
+        private void OnDisable()
+        {
             // Timers
             _startOverTimer.OnTimerStop -= StartRound;
             // P1
@@ -85,18 +92,21 @@ namespace Managers {
             inputReader.P2BottomRight -= OnP2BottomRight;
         }
 
-        private void Start() {
-            foreach (var colorData in colorSettings.colorList) {
+        private void Start()
+        {
+            foreach (var colorData in colorSettings.colorList)
+            {
                 ColorDataList.TryAdd(colorData.option, colorData);
             }
             StartRound();
         }
 
-        private void StartRound() {
+        private void StartRound()
+        {
             OnRoundStart?.Invoke();
             OnMaskChange?.Invoke(EnumBank.Players.P1);
             OnMaskChange?.Invoke(EnumBank.Players.P2);
-            
+
             // Can read input now
             _canInput = true;
         }
@@ -106,14 +116,14 @@ namespace Managers {
             if (checkColor)
             {
                 _p1ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Win);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
             else
             {
                 _p2ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Lose);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
@@ -128,14 +138,14 @@ namespace Managers {
             if (checkColor)
             {
                 _p2ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Win);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
             else
             {
                 _p1ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Lose);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
@@ -148,84 +158,96 @@ namespace Managers {
         #region Inputs Functions
 
         // P1
-        private void OnP1TopLeft() {
+        private void OnP1TopLeft()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopLeft, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
-        private void OnP1TopCenter() {
+        private void OnP1TopCenter()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopCenter, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
-        private void OnP1TopRight() {
+        private void OnP1TopRight()
+        {
             if (!_canInput) return;
             _canInput = false;
-            var  checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopRight, p1Mask.CorrectColorName);
+            var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopRight, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
-        private void OnP1BottomLeft() {
+        private void OnP1BottomLeft()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.BottomLeft, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
-        private void OnP1BottomCenter() {
+        private void OnP1BottomCenter()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.BottomCenter, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
-        private void OnP1BottomRight() {
+        private void OnP1BottomRight()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.BottomRight, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
         // P2
-        private void OnP2TopLeft() {
+        private void OnP2TopLeft()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.TopLeft, p2Mask.CorrectColorName);
             CheckWinForP2(checkColor);
         }
 
-        private void OnP2TopCenter() {
+        private void OnP2TopCenter()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.TopCenter, p2Mask.CorrectColorName);
             CheckWinForP2(checkColor);
         }
 
-        private void OnP2TopRight() {
+        private void OnP2TopRight()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.TopRight, p2Mask.CorrectColorName);
             CheckWinForP2(checkColor);
         }
 
-        private void OnP2BottomLeft() {
+        private void OnP2BottomLeft()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.BottomLeft, p2Mask.CorrectColorName);
             CheckWinForP2(checkColor);
         }
 
-        private void OnP2BottomCenter() {
+        private void OnP2BottomCenter()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.BottomCenter, p2Mask.CorrectColorName);
             CheckWinForP2(checkColor);
         }
 
-        private void OnP2BottomRight() {
+        private void OnP2BottomRight()
+        {
             if (!_canInput) return;
             _canInput = false;
             var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P2, EnumBank.ButtonsPosition.BottomRight, p2Mask.CorrectColorName);
