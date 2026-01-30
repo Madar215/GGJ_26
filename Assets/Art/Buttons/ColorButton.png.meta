@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9442d21671b7ffb428b8cc8e3deec1e6
+guid: eeceed2238ed96f4ca4b6899921ca496
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 169582475940615556
-    second: CircleMask_Sad_NoBG_White_0
+      213: -7820725078682149716
+    second: ColorButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CircleMask_Sad_NoBG_White_0
+      name: ColorButton_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 5
-        width: 19
-        height: 24
+        x: 0
+        y: 0
+        width: 30
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48552960d5a7a5200800000000000000
-      internalID: 169582475940615556
+      spriteID: cac59271af3377390800000000000000
+      internalID: -7820725078682149716
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CircleMask_Sad_NoBG_White_0: 169582475940615556
+      ColorButton_0: -7820725078682149716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
