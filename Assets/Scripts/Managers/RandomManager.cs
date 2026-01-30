@@ -85,6 +85,9 @@ namespace Managers {
             var correctBodyColor = (EnumBank.ColorOptions)randomBody;
             
             var randomBorder = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            while (randomBorder == randomBody) {
+                randomBorder = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            }
             var borderColor = (EnumBank.ColorOptions)randomBorder;
             
             if (player == EnumBank.Players.P1) {
