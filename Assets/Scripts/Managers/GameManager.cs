@@ -12,6 +12,7 @@ namespace Managers {
         [SerializeField] private Mask.Mask p2Mask;
         [SerializeField] private InputReader inputReader;
         [SerializeField] private ColorSettings colorSettings;
+        [SerializeField] private AudioManager audioManager;
 
         [Header("Settings")] 
         [SerializeField] private float startOverTime = 3f;
@@ -96,9 +97,11 @@ namespace Managers {
             
             if (checkColor) {
                 _p1ScoreNum++;
+                audioManager.PlaySFX(audioManager.Win);
             }
             else {
                 _p2ScoreNum++;
+                audioManager.PlaySFX(audioManager.Lose);
             }
 
             OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
@@ -108,9 +111,11 @@ namespace Managers {
         private void CheckWinForP2(bool checkColor) {
             if (checkColor) {
                 _p2ScoreNum++;
+                audioManager.PlaySFX(audioManager.Win);
             }
             else {
                 _p1ScoreNum++;
+                audioManager.PlaySFX(audioManager.Lose);
             }
 
             OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);

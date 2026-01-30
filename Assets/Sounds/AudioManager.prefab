@@ -308,6 +308,6 @@ MonoBehaviour:
   SFXSource: {fileID: 2988377447461386475}
   Gameplay: {fileID: 8300000, guid: 3fb2e24df5b6e43469c22c70d41e3268, type: 3}
   Menu: {fileID: 8300000, guid: 731b241294acfde4a978bf9c68f6e8e7, type: 3}
-  Win: {fileID: 8300000, guid: e56648bd1d670ee47b906b4427dd3245, type: 3}
-  Lose: {fileID: 8300000, guid: a5a0f0ebf6e479b418d85dad5620dece, type: 3}
+  Win: {fileID: 8300000, guid: 1ab4bbe4ce3b13f47bb7bd409efe28b9, type: 3}
+  Lose: {fileID: 8300000, guid: 1f2f5720d85b1be4e9f384ff68fc36a9, type: 3}
   Victory: {fileID: 8300000, guid: 8cc3faeb192a7ed4485d484f031d24a0, type: 3}
