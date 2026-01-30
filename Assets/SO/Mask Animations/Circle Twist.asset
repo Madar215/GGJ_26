@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d47b91e064412cb8463781932bc9b0, type: 3}
+  m_Name: Circle Twist
+  m_EditorClassIdentifier: 
+  spritesToAnimate:
+  - {fileID: -405642688969894054, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -1237189302102568213, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -1501928499688128594, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -5809619189006019093, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 2992844264558574763, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 6710698283097902362, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -2637674929908100447, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -557369371943824998, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -7798410161793763423, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 7836347697864180607, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 1441768044996235097, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -9001283685302867313, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 7586214719783674823, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -8594587702367236742, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 8961473372584942468, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 7221602283866829881, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 5484866553624934636, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 4560804664298731916, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 2621597334581667574, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -6614618498148621467, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 9142553908405787388, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 5708710078199289103, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: -5085485985295198578, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}
+  - {fileID: 1638481784535229560, guid: b3b31d47f41fa79488deff806e3ea808, type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d47b91e064412cb8463781932bc9b0, type: 3}
+  m_Name: Circle Sad
+  m_EditorClassIdentifier: 
+  spritesToAnimate:
+  - {fileID: 4343177679092797118, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 4950316714376629638, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 7006249136614842294, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -5335543687289898276, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -975609187717810946, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -4691573765597908592, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 7739256710611071103, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -5342774279909436417, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 5087386802873106458, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 2393140763676861175, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -5691888915848336753, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 5436156387107566400, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -3048447600557146536, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 4919925048294289679, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -5915702445853792577, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 4776187152123727609, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -2882148991339337260, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -973976002065606713, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -593981635929860617, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -1133594406454868821, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -2319925449908276908, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -2801194993125720320, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: -2941112017715467505, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
+  - {fileID: 564486624051139784, guid: ce87901be065d4a4b86b8c3b7434338d, type: 3}
