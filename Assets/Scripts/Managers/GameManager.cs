@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Input;
 using UnityEngine;
@@ -17,7 +16,7 @@ namespace Managers {
         [Header("Settings")] 
         [SerializeField] private float startOverTime = 3f;
         
-        public Dictionary<EnumBank.ColorOptions, ColorData> ColorDataList = new();
+        public readonly Dictionary<EnumBank.ColorOptions, ColorData> ColorDataList = new();
         
         private bool _canInput = true;
         
@@ -29,6 +28,7 @@ namespace Managers {
         // Events
         public event UnityAction OnRoundStart;
         public event UnityAction<int, int> OnRoundEnd;
+        public event UnityAction<EnumBank.Players> OnMaskChange;
 
         private void Awake() {
             _startOverTimer = new CountdownTimer(startOverTime);
@@ -80,11 +80,13 @@ namespace Managers {
             foreach (var colorData in colorSettings.colorList) {
                 ColorDataList.TryAdd(colorData.option, colorData);
             }
-            OnRoundStart?.Invoke();
+            StartRound();
         }
 
         private void StartRound() {
             OnRoundStart?.Invoke();
+            OnMaskChange?.Invoke(EnumBank.Players.P1);
+            OnMaskChange?.Invoke(EnumBank.Players.P2);
             
             // Can read input now
             _canInput = true;

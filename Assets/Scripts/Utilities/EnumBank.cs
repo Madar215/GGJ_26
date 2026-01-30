@@ -27,5 +27,12 @@ namespace Utilities {
             White,
             MaxColors,
         }
+
+        public enum MaskType {
+            Circle,
+            Demon,
+            Egg,
+            MaxType,
+        }
     }
 }

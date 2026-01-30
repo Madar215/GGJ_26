@@ -1,17 +1,27 @@
 using System.Collections.Generic;
+using Animations;
 using Mask;
 using UnityEngine;
+using UnityEngine.Events;
 using Utilities;
 using Random = UnityEngine.Random;
 
 namespace Managers {
     public class RandomManager : MonoBehaviour {
+        // Events
+        public event UnityAction<MaskAnimation, EnumBank.Players> OnAnimationChange;
+        
         [Header("Refs")]
         [SerializeField] private GameManager gameManager;
         [SerializeField] private Mask.Mask p1Mask;
         [SerializeField] private Mask.Mask p2Mask;
         
         [SerializeField] private ColorSettings colorSettings;
+        [SerializeField] private List<MaskAnimation> circleMaskAnimations;
+        [SerializeField] private List<MaskAnimation> demonMaskAnimations;
+        [SerializeField] private List<MaskAnimation> eggMaskAnimations;
+        [SerializeField] private List<Sprite> maskBodyTypes;
+        
         private List<Color> _colorOptions;
         private List<string>  _colorNames;
 
@@ -24,6 +34,49 @@ namespace Managers {
             _colorNames = new List<string>();
             foreach (var colorData in colorSettings.colorList) {
                 _colorNames.Add(colorData.displayName);
+            }
+        }
+
+        private void OnEnable() {
+            gameManager.OnMaskChange += MakeRandomAnimation;
+        }
+
+        private void OnDisable() {
+            gameManager.OnMaskChange -= MakeRandomAnimation;
+        }
+
+        private void MakeRandomAnimation(EnumBank.Players player) {
+            var bodyRng = Random.Range(0, (int)EnumBank.MaskType.MaxType);
+            var animationRngTest = Random.Range(0,2);
+            
+            if (player == EnumBank.Players.P1) {
+                p1Mask.SetBodySprite(maskBodyTypes[bodyRng]);
+                switch ((EnumBank.MaskType)bodyRng) {
+                    case EnumBank.MaskType.Circle:
+                        OnAnimationChange?.Invoke(circleMaskAnimations[animationRngTest], EnumBank.Players.P1);
+                        break;
+                    case EnumBank.MaskType.Demon:
+                        OnAnimationChange?.Invoke(demonMaskAnimations[animationRngTest], EnumBank.Players.P1);
+                        break;
+                    case EnumBank.MaskType.Egg:
+                        OnAnimationChange?.Invoke(eggMaskAnimations[animationRngTest], EnumBank.Players.P1);
+                        break;
+                }
+            }
+
+            if (player == EnumBank.Players.P2) {
+                p2Mask.SetBodySprite(maskBodyTypes[bodyRng]);
+                switch ((EnumBank.MaskType)bodyRng) {
+                    case EnumBank.MaskType.Circle:
+                        OnAnimationChange?.Invoke(circleMaskAnimations[animationRngTest], EnumBank.Players.P2);
+                        break;
+                    case EnumBank.MaskType.Demon:
+                        OnAnimationChange?.Invoke(demonMaskAnimations[animationRngTest], EnumBank.Players.P2);
+                        break;
+                    case EnumBank.MaskType.Egg:
+                        OnAnimationChange?.Invoke(eggMaskAnimations[animationRngTest], EnumBank.Players.P2);
+                        break;
+                }
             }
         }
 
