@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: f2ef8089d5ceef949b666930e0ac3737
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1921797684725527256
+    second: SPS_EggMaskEyes_NoBG_White_0
+  - first:
+      213: 2936895918922389271
+    second: SPS_EggMaskEyes_NoBG_White_1
+  - first:
+      213: -8991099772799990377
+    second: SPS_EggMaskEyes_NoBG_White_2
+  - first:
+      213: -4828311706339520560
+    second: SPS_EggMaskEyes_NoBG_White_3
+  - first:
+      213: -5462109886297844673
+    second: SPS_EggMaskEyes_NoBG_White_4
+  - first:
+      213: 3315323396635105516
+    second: SPS_EggMaskEyes_NoBG_White_5
+  - first:
+      213: -899922799933132520
+    second: SPS_EggMaskEyes_NoBG_White_6
+  - first:
+      213: 1691450374160470440
+    second: SPS_EggMaskEyes_NoBG_White_7
+  - first:
+      213: 667031379587721324
+    second: SPS_EggMaskEyes_NoBG_White_8
+  - first:
+      213: -1737015928169831172
+    second: SPS_EggMaskEyes_NoBG_White_9
+  - first:
+      213: 4126672522307321541
+    second: SPS_EggMaskEyes_NoBG_White_10
+  - first:
+      213: 3809659724020175257
+    second: SPS_EggMaskEyes_NoBG_White_11
+  - first:
+      213: -5839043931499148915
+    second: SPS_EggMaskEyes_NoBG_White_12
+  - first:
+      213: -394070248874543992
+    second: SPS_EggMaskEyes_NoBG_White_13
+  - first:
+      213: -5173384661258339312
+    second: SPS_EggMaskEyes_NoBG_White_14
+  - first:
+      213: 2864761427485725644
+    second: SPS_EggMaskEyes_NoBG_White_15
+  - first:
+      213: -1539926438142255670
+    second: SPS_EggMaskEyes_NoBG_White_16
+  - first:
+      213: 2731619935935628053
+    second: SPS_EggMaskEyes_NoBG_White_17
+  - first:
+      213: -4226324513087313848
+    second: SPS_EggMaskEyes_NoBG_White_18
+  - first:
+      213: 7336662543036151733
+    second: SPS_EggMaskEyes_NoBG_White_19
+  - first:
+      213: 3710214353747354291
+    second: SPS_EggMaskEyes_NoBG_White_20
+  - first:
+      213: 8855319304539571675
+    second: SPS_EggMaskEyes_NoBG_White_21
+  - first:
+      213: 6097980056301823347
+    second: SPS_EggMaskEyes_NoBG_White_22
+  - first:
+      213: -1774258533012230517
+    second: SPS_EggMaskEyes_NoBG_White_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d44c710376455e0800000000000000
+      internalID: -1921797684725527256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717d9a52743f1c820800000000000000
+      internalID: 2936895918922389271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795492eb462393380800000000000000
+      internalID: -8991099772799990377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfc5c6a5146efcb0800000000000000
+      internalID: -4828311706339520560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3451177fffa234b0800000000000000
+      internalID: -5462109886297844673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce81afb5015620e20800000000000000
+      internalID: 3315323396635105516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811f5b04bf4d283f0800000000000000
+      internalID: -899922799933132520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 100
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a15903572d397710800000000000000
+      internalID: 1691450374160470440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c686d527185c14900800000000000000
+      internalID: 667031379587721324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4ed386731e4e7e0800000000000000
+      internalID: -1737015928169831172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce3e748bc2e44930800000000000000
+      internalID: 4126672522307321541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991d555a551aed430800000000000000
+      internalID: 3809659724020175257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89c71b1b7c87fea0800000000000000
+      internalID: -5839043931499148915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884784f423bf78af0800000000000000
+      internalID: -394070248874543992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cfd337f027438b0800000000000000
+      internalID: -5173384661258339312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 68
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc31783175da1c720800000000000000
+      internalID: 2864761427485725644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd5c4a301511aae0800000000000000
+      internalID: -1539926438142255670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51381d6ebd9a8e520800000000000000
+      internalID: 2731619935935628053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848a7e35f341955c0800000000000000
+      internalID: -4226324513087313848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7759a26bf01d560800000000000000
+      internalID: 7336662543036151733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2aaa31c445d7330800000000000000
+      internalID: 3710214353747354291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd58dbf6df964ea70800000000000000
+      internalID: 8855319304539571675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375694f7d8060a450800000000000000
+      internalID: 6097980056301823347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_EggMaskEyes_NoBG_White_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ea910c3419067e0800000000000000
+      internalID: -1774258533012230517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

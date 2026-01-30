@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Mask;
 using UnityEngine;
@@ -28,28 +27,20 @@ namespace Managers {
             }
         }
 
-        private void OnRoundStart() {
-            var p1Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
-            var p1CorrectColor = (EnumBank.ColorOptions)p1Random;
-            
-            var p2Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
-            var p2CorrectColor = (EnumBank.ColorOptions)p2Random;
-
-            p1Mask.SetSpriteColor(p1CorrectColor);
-            p2Mask.SetSpriteColor(p2CorrectColor);
-        }
-
         private void MakeRandomMask(EnumBank.Players player) {
+            var randomBody = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            var correctBodyColor = (EnumBank.ColorOptions)randomBody;
+            
+            var randomBorder = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            var borderColor = (EnumBank.ColorOptions)randomBorder;
+            
             if (player == EnumBank.Players.P1) {
-                var p1Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
-                var p1CorrectColor = (EnumBank.ColorOptions)p1Random;
-                p1Mask.SetSpriteColor(p1CorrectColor);
+                p1Mask.SetSpriteColor(correctBodyColor);
+                p1Mask.SetFrameColor(borderColor);
             }
-
             if (player == EnumBank.Players.P2) {
-                var p2Random = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
-                var p2CorrectColor = (EnumBank.ColorOptions)p2Random;
-                p2Mask.SetSpriteColor(p2CorrectColor);
+                p2Mask.SetSpriteColor(correctBodyColor);
+                p2Mask.SetFrameColor(borderColor);
             }
         }
 

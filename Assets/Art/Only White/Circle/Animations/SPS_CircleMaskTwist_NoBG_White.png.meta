@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: b3b31d47f41fa79488deff806e3ea808
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -405642688969894054
+    second: SPS_CircleMaskTwist_NoBG_White_0
+  - first:
+      213: -1237189302102568213
+    second: SPS_CircleMaskTwist_NoBG_White_1
+  - first:
+      213: -1501928499688128594
+    second: SPS_CircleMaskTwist_NoBG_White_2
+  - first:
+      213: -5809619189006019093
+    second: SPS_CircleMaskTwist_NoBG_White_3
+  - first:
+      213: 2992844264558574763
+    second: SPS_CircleMaskTwist_NoBG_White_4
+  - first:
+      213: 6710698283097902362
+    second: SPS_CircleMaskTwist_NoBG_White_5
+  - first:
+      213: -2637674929908100447
+    second: SPS_CircleMaskTwist_NoBG_White_6
+  - first:
+      213: -557369371943824998
+    second: SPS_CircleMaskTwist_NoBG_White_7
+  - first:
+      213: -7798410161793763423
+    second: SPS_CircleMaskTwist_NoBG_White_8
+  - first:
+      213: 7836347697864180607
+    second: SPS_CircleMaskTwist_NoBG_White_9
+  - first:
+      213: 1441768044996235097
+    second: SPS_CircleMaskTwist_NoBG_White_10
+  - first:
+      213: -9001283685302867313
+    second: SPS_CircleMaskTwist_NoBG_White_11
+  - first:
+      213: 7586214719783674823
+    second: SPS_CircleMaskTwist_NoBG_White_12
+  - first:
+      213: -8594587702367236742
+    second: SPS_CircleMaskTwist_NoBG_White_13
+  - first:
+      213: 8961473372584942468
+    second: SPS_CircleMaskTwist_NoBG_White_14
+  - first:
+      213: 7221602283866829881
+    second: SPS_CircleMaskTwist_NoBG_White_15
+  - first:
+      213: 5484866553624934636
+    second: SPS_CircleMaskTwist_NoBG_White_16
+  - first:
+      213: 4560804664298731916
+    second: SPS_CircleMaskTwist_NoBG_White_17
+  - first:
+      213: 2621597334581667574
+    second: SPS_CircleMaskTwist_NoBG_White_18
+  - first:
+      213: -6614618498148621467
+    second: SPS_CircleMaskTwist_NoBG_White_19
+  - first:
+      213: 9142553908405787388
+    second: SPS_CircleMaskTwist_NoBG_White_20
+  - first:
+      213: 5708710078199289103
+    second: SPS_CircleMaskTwist_NoBG_White_21
+  - first:
+      213: -5085485985295198578
+    second: SPS_CircleMaskTwist_NoBG_White_22
+  - first:
+      213: 1638481784535229560
+    second: SPS_CircleMaskTwist_NoBG_White_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a571732af1ede5af0800000000000000
+      internalID: -405642688969894054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2534872ee94dee0800000000000000
+      internalID: -1237189302102568213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafbd02bcf3182be0800000000000000
+      internalID: -1501928499688128594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5d007d026106fa0800000000000000
+      internalID: -5809619189006019093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac34197008b88920800000000000000
+      internalID: 2992844264558574763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dcfde9880312d50800000000000000
+      internalID: 6710698283097902362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2dfd150a8156bd0800000000000000
+      internalID: -2637674929908100447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 101
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a911b906283d348f0800000000000000
+      internalID: -557369371943824998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a77c7d864b76c390800000000000000
+      internalID: -7798410161793763423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7305a366bc40cc60800000000000000
+      internalID: 7836347697864180607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f828ae560320410800000000000000
+      internalID: 1441768044996235097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ae007dd24051380800000000000000
+      internalID: -9001283685302867313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3ab8a1816a74960800000000000000
+      internalID: 7586214719783674823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dc5715504e9b880800000000000000
+      internalID: -8594587702367236742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b1c0d6d8c8d5c70800000000000000
+      internalID: 8961473372584942468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 69
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9343807f309483460800000000000000
+      internalID: 7221602283866829881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce83c3902192e1c40800000000000000
+      internalID: 5484866553624934636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8978719dab3b4f30800000000000000
+      internalID: 4560804664298731916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6e9dfc2e8c16420800000000000000
+      internalID: 2621597334581667574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563af1d85872434a0800000000000000
+      internalID: -6614618498148621467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfad2622750e0ee70800000000000000
+      internalID: 9142553908405787388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d2c0f199693f40800000000000000
+      internalID: 5708710078199289103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e869040c079bc69b0800000000000000
+      internalID: -5085485985295198578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_CircleMaskTwist_NoBG_White_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 37
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874ab22808e0db610800000000000000
+      internalID: 1638481784535229560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
