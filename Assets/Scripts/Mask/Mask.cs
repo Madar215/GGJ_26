@@ -19,5 +19,9 @@ namespace Mask {
         public void SetFrameColor(EnumBank.ColorOptions colorOption) {
             borderSpriteRenderer.color = gameManager.ColorDataList[colorOption].color;
         }
+
+        public void SetBodySprite(Sprite sprite) {
+            bodySpriteRenderer.sprite = sprite;
+        }
     }
 }
