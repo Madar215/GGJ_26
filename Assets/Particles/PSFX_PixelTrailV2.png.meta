@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PSFX_PixelTrailV2_0: -5530640914491768737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
