@@ -105,7 +105,6 @@ namespace Managers {
         {
             if (checkColor)
             {
-                // ✅ P1 wins
                 _p1ScoreNum++;
 
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
@@ -113,7 +112,6 @@ namespace Managers {
             }
             else
             {
-                // ❌ P1 wrong → P2 wins
                 _p2ScoreNum++;
 
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
@@ -129,7 +127,6 @@ namespace Managers {
         {
             if (checkColor)
             {
-                // ✅ P2 wins
                 _p2ScoreNum++;
 
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
@@ -137,7 +134,6 @@ namespace Managers {
             }
             else
             {
-                // ❌ P2 wrong → P1 wins
                 _p1ScoreNum++;
 
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
