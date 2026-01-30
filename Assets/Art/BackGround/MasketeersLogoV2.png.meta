@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2364ae5c7cbd2214d826a8685d62b914
+guid: 1160d306d0e50c441afc23100e7d3647
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 119590576666315056
-    second: BGMainMenu_0
+      213: 8816197332954004861
+    second: MasketeersLogoV2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BGMainMenu_0
+      name: MasketeersLogoV2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 135
+        width: 863
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0390ea0fefed8a100800000000000000
-      internalID: 119590576666315056
+      spriteID: d7d387c93cc695a70800000000000000
+      internalID: 8816197332954004861
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BGMainMenu_0: 119590576666315056
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
