@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_DemonMaskDead_NoBG_White_0: 6185754173925185609
+      SPS_DemonMaskDead_NoBG_White_1: -5837207472283843003
+      SPS_DemonMaskDead_NoBG_White_10: -4354096606913560854
+      SPS_DemonMaskDead_NoBG_White_11: 2562998170798911184
+      SPS_DemonMaskDead_NoBG_White_12: 102644329533074581
+      SPS_DemonMaskDead_NoBG_White_13: -1149987703575154834
+      SPS_DemonMaskDead_NoBG_White_14: 3847430996738086152
+      SPS_DemonMaskDead_NoBG_White_15: -3415810343502835319
+      SPS_DemonMaskDead_NoBG_White_16: 4248269219945965777
+      SPS_DemonMaskDead_NoBG_White_17: -279619815717149411
+      SPS_DemonMaskDead_NoBG_White_18: 1309100086384135376
+      SPS_DemonMaskDead_NoBG_White_19: -9061841104820335061
+      SPS_DemonMaskDead_NoBG_White_2: -4754712659662563582
+      SPS_DemonMaskDead_NoBG_White_20: -2087332014109053187
+      SPS_DemonMaskDead_NoBG_White_21: 6094697025489495791
+      SPS_DemonMaskDead_NoBG_White_22: -8566270789839926100
+      SPS_DemonMaskDead_NoBG_White_23: 2677385676674067866
+      SPS_DemonMaskDead_NoBG_White_3: 4225920590329728832
+      SPS_DemonMaskDead_NoBG_White_4: 3525176945909493542
+      SPS_DemonMaskDead_NoBG_White_5: -676002912976738800
+      SPS_DemonMaskDead_NoBG_White_6: 476923209208826932
+      SPS_DemonMaskDead_NoBG_White_7: -3444608898742689229
+      SPS_DemonMaskDead_NoBG_White_8: -641860361836727481
+      SPS_DemonMaskDead_NoBG_White_9: 6456888779376653786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

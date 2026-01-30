@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_DemonMaskDevil_NoBG_White_0: 3160165691831165441
+      SPS_DemonMaskDevil_NoBG_White_1: 450238014603144966
+      SPS_DemonMaskDevil_NoBG_White_10: -2426024167085872810
+      SPS_DemonMaskDevil_NoBG_White_11: -5967427652744816903
+      SPS_DemonMaskDevil_NoBG_White_12: -4525118523521328488
+      SPS_DemonMaskDevil_NoBG_White_13: 1034259161424721258
+      SPS_DemonMaskDevil_NoBG_White_14: -6714205941028500368
+      SPS_DemonMaskDevil_NoBG_White_15: -2341863804899073181
+      SPS_DemonMaskDevil_NoBG_White_16: 6746203747984262409
+      SPS_DemonMaskDevil_NoBG_White_17: -3110470676133122857
+      SPS_DemonMaskDevil_NoBG_White_18: -8344206036079559487
+      SPS_DemonMaskDevil_NoBG_White_19: -1938487973561544566
+      SPS_DemonMaskDevil_NoBG_White_2: -5323334860126534938
+      SPS_DemonMaskDevil_NoBG_White_20: -7300572776359598423
+      SPS_DemonMaskDevil_NoBG_White_21: 7297338085114921540
+      SPS_DemonMaskDevil_NoBG_White_22: 5300176234278556831
+      SPS_DemonMaskDevil_NoBG_White_23: -3269319991525053158
+      SPS_DemonMaskDevil_NoBG_White_3: 4397464953397289662
+      SPS_DemonMaskDevil_NoBG_White_4: -1824665480792153306
+      SPS_DemonMaskDevil_NoBG_White_5: -3888948242866589124
+      SPS_DemonMaskDevil_NoBG_White_6: -7993048513240319170
+      SPS_DemonMaskDevil_NoBG_White_7: 2604675348522151108
+      SPS_DemonMaskDevil_NoBG_White_8: 4467298885692049031
+      SPS_DemonMaskDevil_NoBG_White_9: 61158480991168374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

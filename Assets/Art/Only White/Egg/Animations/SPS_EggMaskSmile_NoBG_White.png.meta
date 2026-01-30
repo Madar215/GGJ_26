@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: f2ef8089d5ceef949b666930e0ac3737
+guid: fceb25f8ed49b3949960df4fec1c6e01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1921797684725527256
-    second: SPS_EggMaskEyes_NoBG_White_0
+      213: 345956037064150839
+    second: SPS_EggMaskSmile_NoBG_White_0
   - first:
-      213: 2936895918922389271
-    second: SPS_EggMaskEyes_NoBG_White_1
+      213: -6394331713570573871
+    second: SPS_EggMaskSmile_NoBG_White_1
   - first:
-      213: -8991099772799990377
-    second: SPS_EggMaskEyes_NoBG_White_2
+      213: 2420498022950541569
+    second: SPS_EggMaskSmile_NoBG_White_2
   - first:
-      213: -4828311706339520560
-    second: SPS_EggMaskEyes_NoBG_White_3
+      213: -5188433352905654537
+    second: SPS_EggMaskSmile_NoBG_White_3
   - first:
-      213: -5462109886297844673
-    second: SPS_EggMaskEyes_NoBG_White_4
+      213: 5522522127142284639
+    second: SPS_EggMaskSmile_NoBG_White_4
   - first:
-      213: 3315323396635105516
-    second: SPS_EggMaskEyes_NoBG_White_5
+      213: -2937820359043042621
+    second: SPS_EggMaskSmile_NoBG_White_5
   - first:
-      213: -899922799933132520
-    second: SPS_EggMaskEyes_NoBG_White_6
+      213: -6071613408601576483
+    second: SPS_EggMaskSmile_NoBG_White_6
   - first:
-      213: 1691450374160470440
-    second: SPS_EggMaskEyes_NoBG_White_7
+      213: 1650685672134015389
+    second: SPS_EggMaskSmile_NoBG_White_7
   - first:
-      213: 667031379587721324
-    second: SPS_EggMaskEyes_NoBG_White_8
+      213: -3987255585606183136
+    second: SPS_EggMaskSmile_NoBG_White_8
   - first:
-      213: -1737015928169831172
-    second: SPS_EggMaskEyes_NoBG_White_9
+      213: 3038064631147065756
+    second: SPS_EggMaskSmile_NoBG_White_9
   - first:
-      213: 4126672522307321541
-    second: SPS_EggMaskEyes_NoBG_White_10
+      213: 2380069853161695700
+    second: SPS_EggMaskSmile_NoBG_White_10
   - first:
-      213: 3809659724020175257
-    second: SPS_EggMaskEyes_NoBG_White_11
+      213: -576468048777017187
+    second: SPS_EggMaskSmile_NoBG_White_11
   - first:
-      213: -5839043931499148915
-    second: SPS_EggMaskEyes_NoBG_White_12
+      213: 7171498537454124224
+    second: SPS_EggMaskSmile_NoBG_White_12
   - first:
-      213: -394070248874543992
-    second: SPS_EggMaskEyes_NoBG_White_13
+      213: 8521357772447545555
+    second: SPS_EggMaskSmile_NoBG_White_13
   - first:
-      213: -5173384661258339312
-    second: SPS_EggMaskEyes_NoBG_White_14
+      213: 8732062388470052900
+    second: SPS_EggMaskSmile_NoBG_White_14
   - first:
-      213: 2864761427485725644
-    second: SPS_EggMaskEyes_NoBG_White_15
+      213: -7307184668357982816
+    second: SPS_EggMaskSmile_NoBG_White_15
   - first:
-      213: -1539926438142255670
-    second: SPS_EggMaskEyes_NoBG_White_16
+      213: 5463537745429419767
+    second: SPS_EggMaskSmile_NoBG_White_16
   - first:
-      213: 2731619935935628053
-    second: SPS_EggMaskEyes_NoBG_White_17
+      213: 8842365646062207580
+    second: SPS_EggMaskSmile_NoBG_White_17
   - first:
-      213: -4226324513087313848
-    second: SPS_EggMaskEyes_NoBG_White_18
+      213: -2998707722678490189
+    second: SPS_EggMaskSmile_NoBG_White_18
   - first:
-      213: 7336662543036151733
-    second: SPS_EggMaskEyes_NoBG_White_19
+      213: 7714057226963958408
+    second: SPS_EggMaskSmile_NoBG_White_19
   - first:
-      213: 3710214353747354291
-    second: SPS_EggMaskEyes_NoBG_White_20
+      213: -8192739655334299433
+    second: SPS_EggMaskSmile_NoBG_White_20
   - first:
-      213: 8855319304539571675
-    second: SPS_EggMaskEyes_NoBG_White_21
+      213: 6867716155628951004
+    second: SPS_EggMaskSmile_NoBG_White_21
   - first:
-      213: 6097980056301823347
-    second: SPS_EggMaskEyes_NoBG_White_22
+      213: 8791404450517659951
+    second: SPS_EggMaskSmile_NoBG_White_22
   - first:
-      213: -1774258533012230517
-    second: SPS_EggMaskEyes_NoBG_White_23
+      213: -3335310115949108940
+    second: SPS_EggMaskSmile_NoBG_White_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -195,7 +195,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_0
+      name: SPS_EggMaskSmile_NoBG_White_0
       rect:
         serializedVersion: 2
         x: 6
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82d44c710376455e0800000000000000
-      internalID: -1921797684725527256
+      spriteID: 73f4c19ce251dc400800000000000000
+      internalID: 345956037064150839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_1
+      name: SPS_EggMaskSmile_NoBG_White_1
       rect:
         serializedVersion: 2
         x: 38
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 717d9a52743f1c820800000000000000
-      internalID: 2936895918922389271
+      spriteID: 1d17c946f25c247a0800000000000000
+      internalID: -6394331713570573871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_2
+      name: SPS_EggMaskSmile_NoBG_White_2
       rect:
         serializedVersion: 2
         x: 70
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 795492eb462393380800000000000000
-      internalID: -8991099772799990377
+      spriteID: 1099085a026579120800000000000000
+      internalID: 2420498022950541569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_3
+      name: SPS_EggMaskSmile_NoBG_White_3
       rect:
         serializedVersion: 2
         x: 102
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dfc5c6a5146efcb0800000000000000
-      internalID: -4828311706339520560
+      spriteID: 7fef443ea5bfef7b0800000000000000
+      internalID: -5188433352905654537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_4
+      name: SPS_EggMaskSmile_NoBG_White_4
       rect:
         serializedVersion: 2
         x: 134
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3451177fffa234b0800000000000000
-      internalID: -5462109886297844673
+      spriteID: f5dec847d90f3ac40800000000000000
+      internalID: 5522522127142284639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_5
+      name: SPS_EggMaskSmile_NoBG_White_5
       rect:
         serializedVersion: 2
         x: 166
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce81afb5015620e20800000000000000
-      internalID: 3315323396635105516
+      spriteID: 3c2345dd2f3ca37d0800000000000000
+      internalID: -2937820359043042621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_6
+      name: SPS_EggMaskSmile_NoBG_White_6
       rect:
         serializedVersion: 2
         x: 198
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 811f5b04bf4d283f0800000000000000
-      internalID: -899922799933132520
+      spriteID: ddbedce06cb4dbba0800000000000000
+      internalID: -6071613408601576483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_7
+      name: SPS_EggMaskSmile_NoBG_White_7
       rect:
         serializedVersion: 2
         x: 230
@@ -364,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a15903572d397710800000000000000
-      internalID: 1691450374160470440
+      spriteID: d99ff538fd968e610800000000000000
+      internalID: 1650685672134015389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_8
+      name: SPS_EggMaskSmile_NoBG_White_8
       rect:
         serializedVersion: 2
         x: 6
@@ -386,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c686d527185c14900800000000000000
-      internalID: 667031379587721324
+      spriteID: 02750479b2c6aa8c0800000000000000
+      internalID: -3987255585606183136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_9
+      name: SPS_EggMaskSmile_NoBG_White_9
       rect:
         serializedVersion: 2
         x: 38
@@ -408,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf4ed386731e4e7e0800000000000000
-      internalID: -1737015928169831172
+      spriteID: c91f2388faf592a20800000000000000
+      internalID: 3038064631147065756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_10
+      name: SPS_EggMaskSmile_NoBG_White_10
       rect:
         serializedVersion: 2
         x: 70
@@ -430,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ce3e748bc2e44930800000000000000
-      internalID: 4126672522307321541
+      spriteID: 4d9a15adbe4b70120800000000000000
+      internalID: 2380069853161695700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_11
+      name: SPS_EggMaskSmile_NoBG_White_11
       rect:
         serializedVersion: 2
         x: 102
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 991d555a551aed430800000000000000
-      internalID: 3809659724020175257
+      spriteID: d9888482d59fff7f0800000000000000
+      internalID: -576468048777017187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_12
+      name: SPS_EggMaskSmile_NoBG_White_12
       rect:
         serializedVersion: 2
         x: 134
@@ -474,14 +474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d89c71b1b7c87fea0800000000000000
-      internalID: -5839043931499148915
+      spriteID: 0ccbf207ce7468360800000000000000
+      internalID: 7171498537454124224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_13
+      name: SPS_EggMaskSmile_NoBG_White_13
       rect:
         serializedVersion: 2
         x: 166
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 884784f423bf78af0800000000000000
-      internalID: -394070248874543992
+      spriteID: 3d8ffb6feb1f14670800000000000000
+      internalID: 8521357772447545555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_14
+      name: SPS_EggMaskSmile_NoBG_White_14
       rect:
         serializedVersion: 2
         x: 198
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01cfd337f027438b0800000000000000
-      internalID: -5173384661258339312
+      spriteID: 4287e455a748e2970800000000000000
+      internalID: 8732062388470052900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_15
+      name: SPS_EggMaskSmile_NoBG_White_15
       rect:
         serializedVersion: 2
         x: 230
@@ -540,14 +540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc31783175da1c720800000000000000
-      internalID: 2864761427485725644
+      spriteID: 0a5875e524aa79a90800000000000000
+      internalID: -7307184668357982816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_16
+      name: SPS_EggMaskSmile_NoBG_White_16
       rect:
         serializedVersion: 2
         x: 6
@@ -562,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acd5c4a301511aae0800000000000000
-      internalID: -1539926438142255670
+      spriteID: 7f65245e1a262db40800000000000000
+      internalID: 5463537745429419767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_17
+      name: SPS_EggMaskSmile_NoBG_White_17
       rect:
         serializedVersion: 2
         x: 38
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51381d6ebd9a8e520800000000000000
-      internalID: 2731619935935628053
+      spriteID: c52c7abc4b466ba70800000000000000
+      internalID: 8842365646062207580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_18
+      name: SPS_EggMaskSmile_NoBG_White_18
       rect:
         serializedVersion: 2
         x: 70
@@ -606,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 848a7e35f341955c0800000000000000
-      internalID: -4226324513087313848
+      spriteID: 3bb278cc6337266d0800000000000000
+      internalID: -2998707722678490189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_19
+      name: SPS_EggMaskSmile_NoBG_White_19
       rect:
         serializedVersion: 2
         x: 102
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b7759a26bf01d560800000000000000
-      internalID: 7336662543036151733
+      spriteID: 88ab8365d26dd0b60800000000000000
+      internalID: 7714057226963958408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_20
+      name: SPS_EggMaskSmile_NoBG_White_20
       rect:
         serializedVersion: 2
         x: 134
@@ -650,14 +650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b2aaa31c445d7330800000000000000
-      internalID: 3710214353747354291
+      spriteID: 7d8fa82c0ba8d4e80800000000000000
+      internalID: -8192739655334299433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_21
+      name: SPS_EggMaskSmile_NoBG_White_21
       rect:
         serializedVersion: 2
         x: 166
@@ -672,14 +672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd58dbf6df964ea70800000000000000
-      internalID: 8855319304539571675
+      spriteID: cd59972f4770f4f50800000000000000
+      internalID: 6867716155628951004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_22
+      name: SPS_EggMaskSmile_NoBG_White_22
       rect:
         serializedVersion: 2
         x: 198
@@ -694,14 +694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 375694f7d8060a450800000000000000
-      internalID: 6097980056301823347
+      spriteID: f21b4e5d4c7510a70800000000000000
+      internalID: 8791404450517659951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPS_EggMaskEyes_NoBG_White_23
+      name: SPS_EggMaskSmile_NoBG_White_23
       rect:
         serializedVersion: 2
         x: 230
@@ -716,8 +716,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8ea910c3419067e0800000000000000
-      internalID: -1774258533012230517
+      spriteID: 431261bee1996b1d0800000000000000
+      internalID: -3335310115949108940
       vertices: []
       indices: 
       edges: []
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_EggMaskSmile_NoBG_White_0: 345956037064150839
+      SPS_EggMaskSmile_NoBG_White_1: -6394331713570573871
+      SPS_EggMaskSmile_NoBG_White_10: 2380069853161695700
+      SPS_EggMaskSmile_NoBG_White_11: -576468048777017187
+      SPS_EggMaskSmile_NoBG_White_12: 7171498537454124224
+      SPS_EggMaskSmile_NoBG_White_13: 8521357772447545555
+      SPS_EggMaskSmile_NoBG_White_14: 8732062388470052900
+      SPS_EggMaskSmile_NoBG_White_15: -7307184668357982816
+      SPS_EggMaskSmile_NoBG_White_16: 5463537745429419767
+      SPS_EggMaskSmile_NoBG_White_17: 8842365646062207580
+      SPS_EggMaskSmile_NoBG_White_18: -2998707722678490189
+      SPS_EggMaskSmile_NoBG_White_19: 7714057226963958408
+      SPS_EggMaskSmile_NoBG_White_2: 2420498022950541569
+      SPS_EggMaskSmile_NoBG_White_20: -8192739655334299433
+      SPS_EggMaskSmile_NoBG_White_21: 6867716155628951004
+      SPS_EggMaskSmile_NoBG_White_22: 8791404450517659951
+      SPS_EggMaskSmile_NoBG_White_23: -3335310115949108940
+      SPS_EggMaskSmile_NoBG_White_3: -5188433352905654537
+      SPS_EggMaskSmile_NoBG_White_4: 5522522127142284639
+      SPS_EggMaskSmile_NoBG_White_5: -2937820359043042621
+      SPS_EggMaskSmile_NoBG_White_6: -6071613408601576483
+      SPS_EggMaskSmile_NoBG_White_7: 1650685672134015389
+      SPS_EggMaskSmile_NoBG_White_8: -3987255585606183136
+      SPS_EggMaskSmile_NoBG_White_9: 3038064631147065756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

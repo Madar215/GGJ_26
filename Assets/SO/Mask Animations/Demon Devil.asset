@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d47b91e064412cb8463781932bc9b0, type: 3}
+  m_Name: Demon Devil
+  m_EditorClassIdentifier: 
+  spritesToAnimate:
+  - {fileID: 3160165691831165441, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 450238014603144966, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -5323334860126534938, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 4397464953397289662, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -1824665480792153306, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -3888948242866589124, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -7993048513240319170, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 2604675348522151108, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 4467298885692049031, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 61158480991168374, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -2426024167085872810, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -5967427652744816903, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -4525118523521328488, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 1034259161424721258, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -6714205941028500368, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -2341863804899073181, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 6746203747984262409, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -3110470676133122857, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -8344206036079559487, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -1938487973561544566, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -7300572776359598423, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 7297338085114921540, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: 5300176234278556831, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
+  - {fileID: -3269319991525053158, guid: 6d471b7a2d97d1f458a815f8f29ed06e, type: 3}
