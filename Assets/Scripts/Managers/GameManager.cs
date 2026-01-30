@@ -24,6 +24,7 @@ namespace Managers {
 
         [Header("Settings")] 
         [SerializeField] private float startOverTime = 3f;
+        [SerializeField] private float roundTime = 5f;
         
         public readonly Dictionary<EnumBank.ColorOptions, ColorData> ColorDataList = new();
         
@@ -33,23 +34,40 @@ namespace Managers {
         private int _p2ScoreNum;
 
         private CountdownTimer _startOverTimer;
+        private CountdownTimer _roundTimer;
+        private int _lastShownRound = int.MinValue;
         
         // Events
         public event UnityAction OnRoundStart;
         public event UnityAction<int, int> OnRoundEnd;
         public event UnityAction<EnumBank.Players> OnMaskChange;
+        public event UnityAction<int> OnTimeChanged;
+        public event UnityAction<float> OnSecondProgressChanged;
 
         private void Awake() {
             _startOverTimer = new CountdownTimer(startOverTime);
+            _roundTimer = new CountdownTimer(roundTime);
         }
 
         private void Update() {
             _startOverTimer.Tick(Time.deltaTime);
+            _roundTimer.Tick(Time.deltaTime);
+            float t = Mathf.Max(0f, _roundTimer.Time);
+            
+            int shownRound = Mathf.CeilToInt(t);
+            if (shownRound != _lastShownRound) {
+                _lastShownRound = shownRound;
+                OnTimeChanged?.Invoke(shownRound);
+            }
+            
+            float progress = t - Mathf.Floor(t);
+            OnSecondProgressChanged?.Invoke(progress);
         }
 
         private void OnEnable() {
             // Timers
             _startOverTimer.OnTimerStop += StartRound;
+            _roundTimer.OnTimerStop += EndRound;
             // P1
             inputReader.P1TopLeft += OnP1TopLeft;
             inputReader.P1TopCenter += OnP1TopCenter;
@@ -69,6 +87,7 @@ namespace Managers {
         private void OnDisable() {
             // Timers
             _startOverTimer.OnTimerStop -= StartRound;
+            _roundTimer.OnTimerStop -= EndRound;
             // P1
             inputReader.P1TopLeft -= OnP1TopLeft;
             inputReader.P1TopCenter -= OnP1TopCenter;
@@ -99,6 +118,12 @@ namespace Managers {
             
             // Can read input now
             _canInput = true;
+            _roundTimer.Start();
+        }
+
+        private void EndRound() {
+            OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
+            _startOverTimer.Start();
         }
 
         private void CheckWinForP1(bool checkColor)
@@ -117,9 +142,9 @@ namespace Managers {
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
-
-            OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
-            _startOverTimer.Start();
+            
+            _roundTimer.Stop(false);
+            EndRound();
         }
 
 
@@ -139,9 +164,9 @@ namespace Managers {
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
-
-            OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
-            _startOverTimer.Start();
+            
+            _roundTimer.Stop(false);
+            EndRound();
         }
 
 
