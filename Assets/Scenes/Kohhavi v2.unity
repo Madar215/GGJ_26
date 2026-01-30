@@ -270,6 +270,7 @@ MonoBehaviour:
   p2Mask: {fileID: 911136604}
   inputReader: {fileID: 11400000, guid: 2f64ee71e2d4c064ca2a445527a7f516, type: 2}
   colorSettings: {fileID: 11400000, guid: 4597e27e89f039a4584e94853e89b41d, type: 2}
+  audioManager: {fileID: 0}
   startOverTime: 3
 --- !u!4 &63089516
 Transform:
@@ -1254,9 +1255,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1fb7e1aadabcecc4687b81c8606468a5, type: 2}
   - {fileID: 11400000, guid: 2ef7e846dc1fd124b8ec6fe9ad6dca57, type: 2}
   maskBodyTypes:
-  - {fileID: 3015905098618443321, guid: c20d28f0bc193e34b9b9b8e36d2f23ce, type: 3}
-  - {fileID: -7963806379949704309, guid: 8c022efd5156b6c43a14b919e3aadbf1, type: 3}
-  - {fileID: -4725679226302906938, guid: af16ad3dff0905147809ccba9d0a7e82, type: 3}
+  - {fileID: -8901711907259733365, guid: 5b6a5614488f6d54f94cd44e80cf93c0, type: 3}
+  - {fileID: -1263061035548823114, guid: 537d678d9ccffd945bf8a19d6cc52d06, type: 3}
+  - {fileID: 2130298365152832682, guid: 41b215cc3ec771544958a9ceae69413c, type: 3}
 --- !u!4 &622974465
 Transform:
   m_ObjectHideFlags: 0
