@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorList:
   - option: 0
-    color: {r: 1, g: 0, b: 0.8134384, a: 1}
+    color: {r: 0.74213827, g: 0.22170791, b: 0.64417493, a: 1}
     displayName: Pink
   - option: 1
-    color: {r: 0.57784235, g: 0.27007568, b: 0.81132066, a: 1}
+    color: {r: 0.6862689, g: 0.3928839, b: 0.91194963, a: 1}
     displayName: Purple
   - option: 2
     color: {r: 0.39083546, g: 0.39083546, b: 0.39083546, a: 1}
     displayName: Grey
   - option: 3
-    color: {r: 0.84905654, g: 0.3428453, b: 0, a: 1}
+    color: {r: 0.8805031, g: 0.4596703, b: 0.17443919, a: 1}
     displayName: Orange
   - option: 4
-    color: {r: 0.88140154, g: 0, b: 0.010020435, a: 1}
+    color: {r: 0.9056604, g: 0.17942317, b: 0.18910633, a: 1}
     displayName: Red
   - option: 5
-    color: {r: 0, g: 0.832884, b: 0.12698019, a: 1}
+    color: {r: 0.21947302, g: 0.8616352, b: 0.31640324, a: 1}
     displayName: Green
   - option: 6
-    color: {r: 0, g: 0.5000219, b: 0.83137256, a: 1}
+    color: {r: 0.18274586, g: 0.5280869, b: 0.754717, a: 1}
     displayName: Blue
   - option: 7
-    color: {r: 0.83137256, g: 0.81581944, b: 0, a: 1}
+    color: {r: 0.8301887, g: 0.81743103, b: 0.15402867, a: 1}
     displayName: Yellow
   - option: 8
     color: {r: 1, g: 1, b: 1, a: 1}
