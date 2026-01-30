@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_CircleMaskTwist_NoBG_White_0: -405642688969894054
+      SPS_CircleMaskTwist_NoBG_White_1: -1237189302102568213
+      SPS_CircleMaskTwist_NoBG_White_10: 1441768044996235097
+      SPS_CircleMaskTwist_NoBG_White_11: -9001283685302867313
+      SPS_CircleMaskTwist_NoBG_White_12: 7586214719783674823
+      SPS_CircleMaskTwist_NoBG_White_13: -8594587702367236742
+      SPS_CircleMaskTwist_NoBG_White_14: 8961473372584942468
+      SPS_CircleMaskTwist_NoBG_White_15: 7221602283866829881
+      SPS_CircleMaskTwist_NoBG_White_16: 5484866553624934636
+      SPS_CircleMaskTwist_NoBG_White_17: 4560804664298731916
+      SPS_CircleMaskTwist_NoBG_White_18: 2621597334581667574
+      SPS_CircleMaskTwist_NoBG_White_19: -6614618498148621467
+      SPS_CircleMaskTwist_NoBG_White_2: -1501928499688128594
+      SPS_CircleMaskTwist_NoBG_White_20: 9142553908405787388
+      SPS_CircleMaskTwist_NoBG_White_21: 5708710078199289103
+      SPS_CircleMaskTwist_NoBG_White_22: -5085485985295198578
+      SPS_CircleMaskTwist_NoBG_White_23: 1638481784535229560
+      SPS_CircleMaskTwist_NoBG_White_3: -5809619189006019093
+      SPS_CircleMaskTwist_NoBG_White_4: 2992844264558574763
+      SPS_CircleMaskTwist_NoBG_White_5: 6710698283097902362
+      SPS_CircleMaskTwist_NoBG_White_6: -2637674929908100447
+      SPS_CircleMaskTwist_NoBG_White_7: -557369371943824998
+      SPS_CircleMaskTwist_NoBG_White_8: -7798410161793763423
+      SPS_CircleMaskTwist_NoBG_White_9: 7836347697864180607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

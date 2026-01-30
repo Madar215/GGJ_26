@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_CircleMaskSad_NoBG_White_0: 4343177679092797118
+      SPS_CircleMaskSad_NoBG_White_1: 4950316714376629638
+      SPS_CircleMaskSad_NoBG_White_10: -5691888915848336753
+      SPS_CircleMaskSad_NoBG_White_11: 5436156387107566400
+      SPS_CircleMaskSad_NoBG_White_12: -3048447600557146536
+      SPS_CircleMaskSad_NoBG_White_13: 4919925048294289679
+      SPS_CircleMaskSad_NoBG_White_14: -5915702445853792577
+      SPS_CircleMaskSad_NoBG_White_15: 4776187152123727609
+      SPS_CircleMaskSad_NoBG_White_16: -2882148991339337260
+      SPS_CircleMaskSad_NoBG_White_17: -973976002065606713
+      SPS_CircleMaskSad_NoBG_White_18: -593981635929860617
+      SPS_CircleMaskSad_NoBG_White_19: -1133594406454868821
+      SPS_CircleMaskSad_NoBG_White_2: 7006249136614842294
+      SPS_CircleMaskSad_NoBG_White_20: -2319925449908276908
+      SPS_CircleMaskSad_NoBG_White_21: -2801194993125720320
+      SPS_CircleMaskSad_NoBG_White_22: -2941112017715467505
+      SPS_CircleMaskSad_NoBG_White_23: 564486624051139784
+      SPS_CircleMaskSad_NoBG_White_3: -5335543687289898276
+      SPS_CircleMaskSad_NoBG_White_4: -975609187717810946
+      SPS_CircleMaskSad_NoBG_White_5: -4691573765597908592
+      SPS_CircleMaskSad_NoBG_White_6: 7739256710611071103
+      SPS_CircleMaskSad_NoBG_White_7: -5342774279909436417
+      SPS_CircleMaskSad_NoBG_White_8: 5087386802873106458
+      SPS_CircleMaskSad_NoBG_White_9: 2393140763676861175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

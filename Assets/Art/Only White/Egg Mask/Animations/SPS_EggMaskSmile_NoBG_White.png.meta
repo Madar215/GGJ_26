@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_EggMaskSmile_NoBG_White_0: 345956037064150839
+      SPS_EggMaskSmile_NoBG_White_1: -6394331713570573871
+      SPS_EggMaskSmile_NoBG_White_10: 2380069853161695700
+      SPS_EggMaskSmile_NoBG_White_11: -576468048777017187
+      SPS_EggMaskSmile_NoBG_White_12: 7171498537454124224
+      SPS_EggMaskSmile_NoBG_White_13: 8521357772447545555
+      SPS_EggMaskSmile_NoBG_White_14: 8732062388470052900
+      SPS_EggMaskSmile_NoBG_White_15: -7307184668357982816
+      SPS_EggMaskSmile_NoBG_White_16: 5463537745429419767
+      SPS_EggMaskSmile_NoBG_White_17: 8842365646062207580
+      SPS_EggMaskSmile_NoBG_White_18: -2998707722678490189
+      SPS_EggMaskSmile_NoBG_White_19: 7714057226963958408
+      SPS_EggMaskSmile_NoBG_White_2: 2420498022950541569
+      SPS_EggMaskSmile_NoBG_White_20: -8192739655334299433
+      SPS_EggMaskSmile_NoBG_White_21: 6867716155628951004
+      SPS_EggMaskSmile_NoBG_White_22: 8791404450517659951
+      SPS_EggMaskSmile_NoBG_White_23: -3335310115949108940
+      SPS_EggMaskSmile_NoBG_White_3: -5188433352905654537
+      SPS_EggMaskSmile_NoBG_White_4: 5522522127142284639
+      SPS_EggMaskSmile_NoBG_White_5: -2937820359043042621
+      SPS_EggMaskSmile_NoBG_White_6: -6071613408601576483
+      SPS_EggMaskSmile_NoBG_White_7: 1650685672134015389
+      SPS_EggMaskSmile_NoBG_White_8: -3987255585606183136
+      SPS_EggMaskSmile_NoBG_White_9: 3038064631147065756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

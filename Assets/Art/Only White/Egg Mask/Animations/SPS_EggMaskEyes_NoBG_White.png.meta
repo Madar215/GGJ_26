@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_EggMaskEyes_NoBG_White_0: -1921797684725527256
+      SPS_EggMaskEyes_NoBG_White_1: 2936895918922389271
+      SPS_EggMaskEyes_NoBG_White_10: 4126672522307321541
+      SPS_EggMaskEyes_NoBG_White_11: 3809659724020175257
+      SPS_EggMaskEyes_NoBG_White_12: -5839043931499148915
+      SPS_EggMaskEyes_NoBG_White_13: -394070248874543992
+      SPS_EggMaskEyes_NoBG_White_14: -5173384661258339312
+      SPS_EggMaskEyes_NoBG_White_15: 2864761427485725644
+      SPS_EggMaskEyes_NoBG_White_16: -1539926438142255670
+      SPS_EggMaskEyes_NoBG_White_17: 2731619935935628053
+      SPS_EggMaskEyes_NoBG_White_18: -4226324513087313848
+      SPS_EggMaskEyes_NoBG_White_19: 7336662543036151733
+      SPS_EggMaskEyes_NoBG_White_2: -8991099772799990377
+      SPS_EggMaskEyes_NoBG_White_20: 3710214353747354291
+      SPS_EggMaskEyes_NoBG_White_21: 8855319304539571675
+      SPS_EggMaskEyes_NoBG_White_22: 6097980056301823347
+      SPS_EggMaskEyes_NoBG_White_23: -1774258533012230517
+      SPS_EggMaskEyes_NoBG_White_3: -4828311706339520560
+      SPS_EggMaskEyes_NoBG_White_4: -5462109886297844673
+      SPS_EggMaskEyes_NoBG_White_5: 3315323396635105516
+      SPS_EggMaskEyes_NoBG_White_6: -899922799933132520
+      SPS_EggMaskEyes_NoBG_White_7: 1691450374160470440
+      SPS_EggMaskEyes_NoBG_White_8: 667031379587721324
+      SPS_EggMaskEyes_NoBG_White_9: -1737015928169831172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
