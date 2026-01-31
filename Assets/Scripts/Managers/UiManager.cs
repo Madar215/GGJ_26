@@ -1,7 +1,9 @@
 using System.Collections.Generic;
+using System.Globalization;
 using Mask;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Utilities;
 
 namespace Managers {
@@ -17,24 +19,40 @@ namespace Managers {
         [Header("P2")]
         [SerializeField] private TextMeshProUGUI p2Score;
         [SerializeField] private List<ColorButton> p2ColorsButtons;
+        
+        [Header("Timer")]
+        [SerializeField] private TextMeshProUGUI timerText;
+        [SerializeField] private Image radialImage;
 
         private int _p1ScoreNum;
         private int _p2ScoreNum;
-
+        
         private void OnEnable() {
             gameManager.OnRoundStart += OnRoundStart;
             gameManager.OnRoundEnd += RaisePlayerScore;
+            gameManager.OnTimeChanged += OnTimeChanged;
+            gameManager.OnSecondProgressChanged += OnSecondProgressChanged;
         }
 
         private void OnDisable() {
             gameManager.OnRoundStart -= OnRoundStart;
             gameManager.OnRoundEnd -= RaisePlayerScore;
+            gameManager.OnTimeChanged -= OnTimeChanged;
+            gameManager.OnSecondProgressChanged -= OnSecondProgressChanged;
         }
 
         private void OnRoundStart() {
             // Get new colors
             randomManager.MakeRandomColors(p1ColorsButtons, EnumBank.Players.P1);
             randomManager.MakeRandomColors(p2ColorsButtons, EnumBank.Players.P2);
+        }
+
+        private void OnTimeChanged(int time) {
+            timerText.SetText(time.ToString(CultureInfo.InvariantCulture));
+        }
+        
+        private void OnSecondProgressChanged(float p) {
+            radialImage.fillAmount = p;
         }
 
         public bool CheckButtonPressed(EnumBank.Players player ,EnumBank.ButtonsPosition buttonPosition, string colorName) {

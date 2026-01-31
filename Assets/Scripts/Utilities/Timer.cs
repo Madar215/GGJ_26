@@ -3,7 +3,7 @@ using System;
 namespace Utilities {
     public abstract class Timer {
         protected float InitialTime;
-        protected float Time { get; set; }
+        public float Time { get; protected set; }
         public bool IsRunning { get; protected set; }
         
         public float Progress => Time / InitialTime;
@@ -24,10 +24,12 @@ namespace Utilities {
             }
         }
 
-        public void Stop() {
+        public void Stop(bool reset = true) {
             if (IsRunning) {
                 IsRunning = false;
-                OnTimerStop.Invoke();
+                if (reset) {
+                    OnTimerStop.Invoke();
+                }
             }
         }
         

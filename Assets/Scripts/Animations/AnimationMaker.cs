@@ -46,6 +46,7 @@ namespace Animations {
                 _curFrame = 0;
                 _waitBetweenAnimationsTimer.Start();
             }
+            if(!_spritesToAnimate[_curFrame]) return;
             
             borderSpriteRenderer.sprite = _spritesToAnimate[_curFrame];
             ++_curFrame;

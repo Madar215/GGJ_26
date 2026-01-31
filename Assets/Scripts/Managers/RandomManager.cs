@@ -85,6 +85,9 @@ namespace Managers {
             var correctBodyColor = (EnumBank.ColorOptions)randomBody;
             
             var randomBorder = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            while (randomBorder == randomBody) {
+                randomBorder = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
+            }
             var borderColor = (EnumBank.ColorOptions)randomBorder;
             
             if (player == EnumBank.Players.P1) {
@@ -100,42 +103,39 @@ namespace Managers {
         public void MakeRandomColors(List<ColorButton> colorButtons, EnumBank.Players player) {
             MakeRandomMask(player);
             
-            var copiedColors = ShuffleAndReturn(_colorOptions);
-            var copiedColorNames = ShuffleAndReturn(_colorNames);
+            var copiedButtons = new List<ColorButton>(colorButtons);
+            var copiedColors = new List<Color>(_colorOptions);
+            var copiedColorNames = new List<string>(_colorNames);
             
-            int correctColorRng = Random.Range(0, colorButtons.Count);
-            int idx = 0;
+            int correctButtonRng = Random.Range(0, colorButtons.Count);
+            int correctColorRng = Random.Range(0, (int)EnumBank.ColorOptions.MaxColors);
 
-            foreach (var colorButton in colorButtons) {
+            if (player == EnumBank.Players.P1) {
+                colorButtons[correctButtonRng].SetColorName(p1Mask.CorrectColorName);
+                colorButtons[correctButtonRng].SetColor(copiedColors[correctColorRng]);
                 
-                colorButton.SetColor(copiedColors[idx]);
-                if (idx == correctColorRng) {
-                    if (player == EnumBank.Players.P1) {
-                        colorButton.SetColorName(p1Mask.CorrectColorName);
-                    }
-                    if (player == EnumBank.Players.P2) {
-                        colorButton.SetColorName(p2Mask.CorrectColorName);
-                    }
-                }
-                else {
-                    colorButton.SetColorName(copiedColorNames[idx]);
-                }
+                copiedColorNames.Remove(p1Mask.CorrectColorName);
+                copiedColors.RemoveAt(correctColorRng);
+            }
+            if (player == EnumBank.Players.P2) {
+                colorButtons[correctButtonRng].SetColorName(p2Mask.CorrectColorName);
+                colorButtons[correctButtonRng].SetColor(copiedColors[correctColorRng]);
                 
-                idx++;
+                copiedColorNames.Remove(p2Mask.CorrectColorName);
+                copiedColors.RemoveAt(correctColorRng);
             }
-        }
+            copiedButtons.RemoveAt(correctButtonRng);
 
-        private static List<T> ShuffleAndReturn<T>(List<T> original)
-        {
-            var list = new List<T>(original);
-
-            for (int i = list.Count - 1; i > 0; i--)
-            {
-                int j = Random.Range(0, i + 1);
-                (list[i], list[j]) = (list[j], list[i]);
+            foreach (var colorButton in copiedButtons) {
+                int rngColor = Random.Range(0, copiedColors.Count);
+                int rngName = Random.Range(0, copiedColorNames.Count);
+                
+                colorButton.SetColor(copiedColors[rngColor]);
+                colorButton.SetColorName(copiedColorNames[rngName]);
+                
+                copiedColors.RemoveAt(rngColor); 
+                copiedColorNames.RemoveAt(rngName);
             }
-
-            return list;
         }
     }
 }
