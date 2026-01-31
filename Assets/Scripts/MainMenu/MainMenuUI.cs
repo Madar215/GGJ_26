@@ -8,11 +8,16 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private string gameSceneName = "TestGame";
 
     [Header("Panels")]
-    [SerializeField] private GameObject mainPanel;     // the menu buttons group/panel
-    [SerializeField] private GameObject optionsPanel;  // OptionsPanel
+    [SerializeField] private GameObject mainPanel;     
+    [SerializeField] private GameObject optionsPanel;
+    [SerializeField] private GameObject guidePanel;
 
     [Header("Audio")]
     [SerializeField] private Slider volumeSlider;
+
+    [SerializeField] private string gameplaySceneName = "TestGame";
+
+    
 
     private const string VolumeKey = "MasterVolume";
 
@@ -48,10 +53,23 @@ public class MainMenuUI : MonoBehaviour
         if (optionsPanel != null) optionsPanel.SetActive(true);
     }
 
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(gameplaySceneName);
+    }
+
     public void ShowMain()
     {
         if (optionsPanel != null) optionsPanel.SetActive(false);
+        if (guidePanel != null) guidePanel.SetActive(false); // NEW
         if (mainPanel != null) mainPanel.SetActive(true);
+    }
+
+    public void ShowGuide()
+    {
+        if (mainPanel != null) mainPanel.SetActive(false);
+        if (optionsPanel != null) optionsPanel.SetActive(false);
+        if (guidePanel != null) guidePanel.SetActive(true);
     }
 
     public void SetVolume(float value)
