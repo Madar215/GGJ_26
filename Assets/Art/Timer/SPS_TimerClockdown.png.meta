@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: beccb72597f2c9d4893f8d2f982b9a28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7306801809785744035
+    second: SPS_TimerClockdown_0
+  - first:
+      213: 3456983451117663462
+    second: SPS_TimerClockdown_1
+  - first:
+      213: 4864867622392248272
+    second: SPS_TimerClockdown_2
+  - first:
+      213: -5652174491800680757
+    second: SPS_TimerClockdown_3
+  - first:
+      213: -5313172251064669276
+    second: SPS_TimerClockdown_4
+  - first:
+      213: -4635366790502995179
+    second: SPS_TimerClockdown_5
+  - first:
+      213: 488425681655258994
+    second: SPS_TimerClockdown_6
+  - first:
+      213: -6001260468461871275
+    second: SPS_TimerClockdown_7
+  - first:
+      213: 7870791298042529293
+    second: SPS_TimerClockdown_8
+  - first:
+      213: -1958095602131054468
+    second: SPS_TimerClockdown_9
+  - first:
+      213: 9072322520998561117
+    second: SPS_TimerClockdown_10
+  - first:
+      213: 206737373493987813
+    second: SPS_TimerClockdown_11
+  - first:
+      213: -2282679643114177149
+    second: SPS_TimerClockdown_12
+  - first:
+      213: -617344496981812308
+    second: SPS_TimerClockdown_13
+  - first:
+      213: 5978691676220513519
+    second: SPS_TimerClockdown_14
+  - first:
+      213: 6777331205814243544
+    second: SPS_TimerClockdown_15
+  - first:
+      213: 8358130206003919460
+    second: SPS_TimerClockdown_16
+  - first:
+      213: 9097345555378114059
+    second: SPS_TimerClockdown_17
+  - first:
+      213: -6027807476136552137
+    second: SPS_TimerClockdown_18
+  - first:
+      213: 2278095925423595152
+    second: SPS_TimerClockdown_19
+  - first:
+      213: 7991648702388191584
+    second: SPS_TimerClockdown_20
+  - first:
+      213: -4636807195552682434
+    second: SPS_TimerClockdown_21
+  - first:
+      213: -7381966847542660371
+    second: SPS_TimerClockdown_22
+  - first:
+      213: 8885304273143574025
+    second: SPS_TimerClockdown_23
+  - first:
+      213: -9196752647747647444
+    second: SPS_TimerClockdown_24
+  - first:
+      213: -2543272733183280914
+    second: SPS_TimerClockdown_25
+  - first:
+      213: 6950496493028404970
+    second: SPS_TimerClockdown_26
+  - first:
+      213: -7729092050390943329
+    second: SPS_TimerClockdown_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d551a839776099a90800000000000000
+      internalID: -7306801809785744035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4b546022ca9ff20800000000000000
+      internalID: 3456983451117663462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d73dffc35b738340800000000000000
+      internalID: 4864867622392248272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 93
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc642b70f317f81b0800000000000000
+      internalID: -5652174491800680757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abe3d0fcf1d346b0800000000000000
+      internalID: -5313172251064669276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 93
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b2d68967edbafb0800000000000000
+      internalID: -4635366790502995179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f5d36d19c37c600800000000000000
+      internalID: 488425681655258994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 96
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f5cb4666d37bca0800000000000000
+      internalID: -6001260468461871275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d068f0dfbfaaa3d60800000000000000
+      internalID: 7870791298042529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 100
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7059be9c6273d4e0800000000000000
+      internalID: -1958095602131054468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5545eff34d57ed70800000000000000
+      internalID: 9072322520998561117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 106
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e908ecbb8a7ed200800000000000000
+      internalID: 206737373493987813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38df92075fa4250e0800000000000000
+      internalID: -2282679643114177149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 120
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab5b596370ce67f0800000000000000
+      internalID: -617344496981812308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 185
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec55be276498f250800000000000000
+      internalID: 5978691676220513519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 128
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d05ab7e2daed0e50800000000000000
+      internalID: 6777331205814243544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 185
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a735b932b0ef370800000000000000
+      internalID: 8358130206003919460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_17
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 137
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e8a433593404e70800000000000000
+      internalID: 9097345555378114059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 185
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739df62890de85ca0800000000000000
+      internalID: -6027807476136552137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_19
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 137
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e532f9c2c6d9f10800000000000000
+      internalID: 2278095925423595152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_20
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 185
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614f8b372a08ee60800000000000000
+      internalID: 7991648702388191584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_21
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 137
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e6b192c60c6afb0800000000000000
+      internalID: -4636807195552682434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 45
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de27284734cfd8990800000000000000
+      internalID: -7381966847542660371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 45
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eabf9f821fe4b70800000000000000
+      internalID: 8885304273143574025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 38
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c284edf71329e5080800000000000000
+      internalID: -9196752647747647444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 16
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee87cab8cea74bcd0800000000000000
+      internalID: -2543272733183280914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_26
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 6
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee6e8f2cbf157060800000000000000
+      internalID: 6950496493028404970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_TimerClockdown_27
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99f62c0bbfbcb490800000000000000
+      internalID: -7729092050390943329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

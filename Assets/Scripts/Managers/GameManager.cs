@@ -134,12 +134,14 @@ namespace Managers {
         private void CheckWinForP1(bool checkColor) {
             if (checkColor) {
                 _p1ScoreNum++;
+                audioManager.PlaySFX(audioManager.Win);
                 p1ScoreBulb.SetScore(_p1ScoreNum);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
             else {
                 _p2ScoreNum++;
+                audioManager.PlaySFX(audioManager.Lose);
                 p2ScoreBulb.SetScore(_p2ScoreNum);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
