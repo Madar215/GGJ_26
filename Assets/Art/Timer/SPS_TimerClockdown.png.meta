@@ -190,6 +190,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -822,7 +835,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPS_TimerClockdown_0: -7306801809785744035
+      SPS_TimerClockdown_1: 3456983451117663462
+      SPS_TimerClockdown_10: 9072322520998561117
+      SPS_TimerClockdown_11: 206737373493987813
+      SPS_TimerClockdown_12: -2282679643114177149
+      SPS_TimerClockdown_13: -617344496981812308
+      SPS_TimerClockdown_14: 5978691676220513519
+      SPS_TimerClockdown_15: 6777331205814243544
+      SPS_TimerClockdown_16: 8358130206003919460
+      SPS_TimerClockdown_17: 9097345555378114059
+      SPS_TimerClockdown_18: -6027807476136552137
+      SPS_TimerClockdown_19: 2278095925423595152
+      SPS_TimerClockdown_2: 4864867622392248272
+      SPS_TimerClockdown_20: 7991648702388191584
+      SPS_TimerClockdown_21: -4636807195552682434
+      SPS_TimerClockdown_22: -7381966847542660371
+      SPS_TimerClockdown_23: 8885304273143574025
+      SPS_TimerClockdown_24: -9196752647747647444
+      SPS_TimerClockdown_25: -2543272733183280914
+      SPS_TimerClockdown_26: 6950496493028404970
+      SPS_TimerClockdown_27: -7729092050390943329
+      SPS_TimerClockdown_3: -5652174491800680757
+      SPS_TimerClockdown_4: -5313172251064669276
+      SPS_TimerClockdown_5: -4635366790502995179
+      SPS_TimerClockdown_6: 488425681655258994
+      SPS_TimerClockdown_7: -6001260468461871275
+      SPS_TimerClockdown_8: 7870791298042529293
+      SPS_TimerClockdown_9: -1958095602131054468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
