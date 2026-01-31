@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class MainMenuUI : MonoBehaviour
 {
     [Header("Scenes")]
-    [SerializeField] private string gameSceneName = "TestGame";
+    [SerializeField] private string gameSceneName = "Game Scene";
 
     [Header("Panels")]
     [SerializeField] private GameObject mainPanel;     
@@ -15,7 +15,7 @@ public class MainMenuUI : MonoBehaviour
     [Header("Audio")]
     [SerializeField] private Slider volumeSlider;
 
-    [SerializeField] private string gameplaySceneName = "TestGame";
+    [SerializeField] private string gameplaySceneName = "Game Scene";
 
     
 

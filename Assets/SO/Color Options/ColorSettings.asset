@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorList:
   - option: 0
-    color: {r: 0.74213827, g: 0.22170791, b: 0.64417493, a: 1}
+    color: {r: 0.9622642, g: 0.51744384, b: 0.8780179, a: 1}
     displayName: Pink
   - option: 1
-    color: {r: 0.6862689, g: 0.3928839, b: 0.91194963, a: 1}
+    color: {r: 0.5990689, g: 0.17734645, b: 0.9245283, a: 1}
     displayName: Purple
   - option: 2
     color: {r: 0.39083546, g: 0.39083546, b: 0.39083546, a: 1}

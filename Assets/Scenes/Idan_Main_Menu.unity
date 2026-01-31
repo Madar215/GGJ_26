@@ -1270,12 +1270,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4d32d75d5cd5d498c70f9dd28e8f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: TestGame
+  gameSceneName: Game Scene
   mainPanel: {fileID: 799412183}
   optionsPanel: {fileID: 2104315688}
   guidePanel: {fileID: 279478570}
   volumeSlider: {fileID: 900556188}
-  gameplaySceneName: TestGame
+  gameplaySceneName: Game Scene
 --- !u!4 &369809094
 Transform:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Idan_Main_Menu.unity
     guid: c1437108d2eb86d46935d852930c1d27
   - enabled: 1
-    path: Assets/Scenes/TestGame.unity
-    guid: dcc0ea579ebd2c74e941fe12a451f5af
+    path: Assets/Scenes/Game Scene.unity
+    guid: 2d609605ec3314541a2cf07bfa3bdd6d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
