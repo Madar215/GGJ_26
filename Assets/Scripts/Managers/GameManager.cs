@@ -37,7 +37,7 @@ namespace Managers {
         private int _p1ScoreNum;
         private int _p2ScoreNum;
 
-        private CountdownTimer _startOverTimer;
+        public CountdownTimer StartOverTimer { get; private set; }
         private CountdownTimer _roundTimer;
         private int _lastShownRound = int.MinValue;
         
@@ -48,14 +48,17 @@ namespace Managers {
         public event UnityAction<int> OnTimeChanged;
         public event UnityAction<float> OnSecondProgressChanged;
         public event UnityAction<EnumBank.Players> OnGameOver;
+        public event UnityAction<float> OnStartOverTimerTick;
 
         private void Awake() {
-            _startOverTimer = new CountdownTimer(startOverTime);
+            StartOverTimer = new CountdownTimer(startOverTime);
             _roundTimer = new CountdownTimer(roundTime);
         }
 
         private void Update() {
-            _startOverTimer.Tick(Time.deltaTime);
+            StartOverTimer.Tick(Time.deltaTime);
+            OnStartOverTimerTick?.Invoke(StartOverTimer.Time);
+            
             _roundTimer.Tick(Time.deltaTime);
             float t = Mathf.Max(0f, _roundTimer.Time);
             
@@ -71,7 +74,7 @@ namespace Managers {
 
         private void OnEnable() {
             // Timers
-            _startOverTimer.OnTimerStop += StartRound;
+            StartOverTimer.OnTimerStop += StartRound;
             _roundTimer.OnTimerStop += EndRound;
             // P1
             inputReader.P1TopLeft += OnP1TopLeft;
@@ -91,7 +94,7 @@ namespace Managers {
 
         private void OnDisable() {
             // Timers
-            _startOverTimer.OnTimerStop -= StartRound;
+            StartOverTimer.OnTimerStop -= StartRound;
             _roundTimer.OnTimerStop -= EndRound;
             // P1
             inputReader.P1TopLeft -= OnP1TopLeft;
@@ -128,7 +131,7 @@ namespace Managers {
 
         private void EndRound() {
             OnRoundEnd?.Invoke(_p1ScoreNum, _p2ScoreNum);
-            _startOverTimer.Start();
+            StartOverTimer.Start();
         }
 
         private void CheckWinForP1(bool checkColor) {

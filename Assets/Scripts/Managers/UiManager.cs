@@ -50,7 +50,7 @@ namespace Managers {
         }
 
         private void OnTimeChanged(int time) {
-            timerText.SetText(time.ToString(CultureInfo.InvariantCulture));
+            timerText.SetText(time.ToString());
         }
         
         private void OnSecondProgressChanged(float p) {
