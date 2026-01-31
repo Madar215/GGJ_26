@@ -153,14 +153,14 @@ namespace Managers {
             if (checkColor)
             {
                 _p2ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Win);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
             else
             {
                 _p1ScoreNum++;
-
+                audioManager.PlaySFX(audioManager.Lose);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
@@ -190,7 +190,7 @@ namespace Managers {
         private void OnP1TopRight() {
             if (!_canInput) return;
             _canInput = false;
-            var  checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopRight, p1Mask.CorrectColorName);
+            var checkColor = uiManager.CheckButtonPressed(EnumBank.Players.P1, EnumBank.ButtonsPosition.TopRight, p1Mask.CorrectColorName);
             CheckWinForP1(checkColor);
         }
 
