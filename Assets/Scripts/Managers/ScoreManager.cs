@@ -1,5 +1,6 @@
 using UnityEngine;
 using Managers;
+using Score;
 
 public class ScoreManager : MonoBehaviour
 {

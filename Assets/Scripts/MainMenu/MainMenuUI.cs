@@ -53,7 +53,7 @@ public class MainMenuUI : MonoBehaviour
     }
     public void RestartLevel()
     {
-        SceneManager.LoadScene(gameplaySceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ShowMain()
