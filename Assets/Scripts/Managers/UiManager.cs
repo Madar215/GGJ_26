@@ -11,34 +11,36 @@ namespace Managers {
         [Header("Refs")]
         [SerializeField] private GameManager gameManager;
         [SerializeField] private RandomManager randomManager;
+        
+        [Header("Screen")]
+        [SerializeField] private GameObject gameplayScreen;
+        [SerializeField] private GameObject gameOverScreen;
 
         [Header("P1")] 
-        [SerializeField] private TextMeshProUGUI p1Score;
         [SerializeField] private List<ColorButton> p1ColorsButtons;
         
         [Header("P2")]
-        [SerializeField] private TextMeshProUGUI p2Score;
         [SerializeField] private List<ColorButton> p2ColorsButtons;
         
         [Header("Timer")]
         [SerializeField] private TextMeshProUGUI timerText;
         [SerializeField] private Image radialImage;
-
-        private int _p1ScoreNum;
-        private int _p2ScoreNum;
+        
+        [Header("Game Over")]
+        [SerializeField] private TextMeshProUGUI gameOverText;
         
         private void OnEnable() {
             gameManager.OnRoundStart += OnRoundStart;
-            gameManager.OnRoundEnd += RaisePlayerScore;
             gameManager.OnTimeChanged += OnTimeChanged;
             gameManager.OnSecondProgressChanged += OnSecondProgressChanged;
+            gameManager.OnGameOver += OnGameOver;
         }
 
         private void OnDisable() {
             gameManager.OnRoundStart -= OnRoundStart;
-            gameManager.OnRoundEnd -= RaisePlayerScore;
             gameManager.OnTimeChanged -= OnTimeChanged;
             gameManager.OnSecondProgressChanged -= OnSecondProgressChanged;
+            gameManager.OnGameOver -= OnGameOver;
         }
 
         private void OnRoundStart() {
@@ -53,6 +55,19 @@ namespace Managers {
         
         private void OnSecondProgressChanged(float p) {
             radialImage.fillAmount = p;
+        }
+
+        private void OnGameOver(EnumBank.Players player) {
+            gameplayScreen.SetActive(false);
+            gameOverScreen.SetActive(true);
+
+            if (player == EnumBank.Players.P1) {
+                gameOverText.SetText("Player 1 Wins!");
+            }
+
+            if (player == EnumBank.Players.P2) {
+                gameOverText.SetText("Player 2 Wins!");
+            }
         }
 
         public bool CheckButtonPressed(EnumBank.Players player ,EnumBank.ButtonsPosition buttonPosition, string colorName) {
@@ -78,11 +93,6 @@ namespace Managers {
                 default:
                     return false;
             }
-        }
-
-        private void RaisePlayerScore(int p1ScoreNum, int p2ScoreNum) {
-            p1Score.text = p1ScoreNum.ToString();
-            p2Score.text = p2ScoreNum.ToString();
         }
     }
 }

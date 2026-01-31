@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Input;
+using Score;
 using UnityEngine;
 using UnityEngine.Events;
 using Utilities;
@@ -10,21 +11,24 @@ namespace Managers {
         [SerializeField] private UiManager uiManager;
         [SerializeField] private Mask.Mask p1Mask;
         [SerializeField] private Mask.Mask p2Mask;
+        [SerializeField] private ScoreBulbStrip p1ScoreBulb;
+        [SerializeField] private ScoreBulbStrip p2ScoreBulb;
         [SerializeField] private InputReader inputReader;
         [SerializeField] private ColorSettings colorSettings;
         [SerializeField] private AudioManager audioManager;
-
+        
         [Header("Score VFX")]
-
         [SerializeField] private UIButtonParticleVFX p1WinVFX;
         [SerializeField] private UIButtonParticleVFX p1LoseVFX;
-
         [SerializeField] private UIButtonParticleVFX p2WinVFX;
         [SerializeField] private UIButtonParticleVFX p2LoseVFX;
 
         [Header("Settings")] 
         [SerializeField] private float startOverTime = 3f;
         [SerializeField] private float roundTime = 5f;
+
+        [Header("Game Mode")] 
+        [SerializeField] private int scoreToWin = 10;
         
         public readonly Dictionary<EnumBank.ColorOptions, ColorData> ColorDataList = new();
         
@@ -43,6 +47,7 @@ namespace Managers {
         public event UnityAction<EnumBank.Players> OnMaskChange;
         public event UnityAction<int> OnTimeChanged;
         public event UnityAction<float> OnSecondProgressChanged;
+        public event UnityAction<EnumBank.Players> OnGameOver;
 
         private void Awake() {
             _startOverTimer = new CountdownTimer(startOverTime);
@@ -126,49 +131,63 @@ namespace Managers {
             _startOverTimer.Start();
         }
 
-        private void CheckWinForP1(bool checkColor)
-        {
-            if (checkColor)
-            {
+        private void CheckWinForP1(bool checkColor) {
+            if (checkColor) {
                 _p1ScoreNum++;
                 audioManager.PlaySFX(audioManager.Win);
+                p1ScoreBulb.SetScore(_p1ScoreNum);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
-            else
-            {
+            else {
                 _p2ScoreNum++;
                 audioManager.PlaySFX(audioManager.Lose);
+                p2ScoreBulb.SetScore(_p2ScoreNum);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
             }
+            
+            if (CheckGameOver()) return;
             
             _roundTimer.Stop(false);
             EndRound();
         }
 
 
-        private void CheckWinForP2(bool checkColor)
-        {
-            if (checkColor)
-            {
+        private void CheckWinForP2(bool checkColor) {
+            if (checkColor) {
                 _p2ScoreNum++;
+                p2ScoreBulb.SetScore(_p2ScoreNum);
                 audioManager.PlaySFX(audioManager.Win);
                 if (p2WinVFX != null) p2WinVFX.PlayVFX();
                 if (p1LoseVFX != null) p1LoseVFX.PlayVFX();
-            }
-            else
-            {
+            }else {
                 _p1ScoreNum++;
+                p1ScoreBulb.SetScore(_p1ScoreNum);
                 audioManager.PlaySFX(audioManager.Lose);
                 if (p1WinVFX != null) p1WinVFX.PlayVFX();
                 if (p2LoseVFX != null) p2LoseVFX.PlayVFX();
             }
+
+            if (CheckGameOver()) return;
             
             _roundTimer.Stop(false);
             EndRound();
         }
 
+        private bool CheckGameOver() {
+            if (_p1ScoreNum == scoreToWin) {
+                OnGameOver?.Invoke(EnumBank.Players.P1);
+                return true;
+            }
+
+            if (_p2ScoreNum == scoreToWin) {
+                OnGameOver?.Invoke(EnumBank.Players.P2);
+                return true;
+            }
+
+            return false;
+        }
 
         #region Inputs Functions
 
