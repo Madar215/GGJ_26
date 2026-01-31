@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9494a8310b1ce534b99d2b7a8c6dd84a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6471180247824757136
+    second: SPS_KingMaskLaugh_0
+  - first:
+      213: 5489585897752499479
+    second: SPS_KingMaskLaugh_1
+  - first:
+      213: -2709693129365285195
+    second: SPS_KingMaskLaugh_2
+  - first:
+      213: -6269968659894894552
+    second: SPS_KingMaskLaugh_3
+  - first:
+      213: 6052509736448515483
+    second: SPS_KingMaskLaugh_4
+  - first:
+      213: 5628198283679326717
+    second: SPS_KingMaskLaugh_5
+  - first:
+      213: -2156536799957030273
+    second: SPS_KingMaskLaugh_6
+  - first:
+      213: 7017840766487091470
+    second: SPS_KingMaskLaugh_7
+  - first:
+      213: 1775799556390681490
+    second: SPS_KingMaskLaugh_8
+  - first:
+      213: 3145123966639143858
+    second: SPS_KingMaskLaugh_9
+  - first:
+      213: 5820978883219746697
+    second: SPS_KingMaskLaugh_10
+  - first:
+      213: -8957836623568201396
+    second: SPS_KingMaskLaugh_11
+  - first:
+      213: 2890240694166025184
+    second: SPS_KingMaskLaugh_12
+  - first:
+      213: -3736094700017905724
+    second: SPS_KingMaskLaugh_13
+  - first:
+      213: -6806886455104211318
+    second: SPS_KingMaskLaugh_14
+  - first:
+      213: -7851090099896619046
+    second: SPS_KingMaskLaugh_15
+  - first:
+      213: -8074959257748643878
+    second: SPS_KingMaskLaugh_16
+  - first:
+      213: -8106372505325790303
+    second: SPS_KingMaskLaugh_17
+  - first:
+      213: -7670114055213941830
+    second: SPS_KingMaskLaugh_18
+  - first:
+      213: -995929415537883688
+    second: SPS_KingMaskLaugh_19
+  - first:
+      213: 2287256728039755272
+    second: SPS_KingMaskLaugh_20
+  - first:
+      213: 7548086330186654620
+    second: SPS_KingMaskLaugh_21
+  - first:
+      213: -6450766982373999148
+    second: SPS_KingMaskLaugh_22
+  - first:
+      213: -5467854816495631725
+    second: SPS_KingMaskLaugh_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0917e1d46204ec950800000000000000
+      internalID: 6471180247824757136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7151887f94dee2c40800000000000000
+      internalID: 5489585897752499479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b69dd5947c356ad0800000000000000
+      internalID: -2709693129365285195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820022a39b89cf8a0800000000000000
+      internalID: -6269968659894894552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d5b98a985def350800000000000000
+      internalID: 6052509736448515483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df16b2005806b1e40800000000000000
+      internalID: 5628198283679326717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ae08dc4317212e0800000000000000
+      internalID: -2156536799957030273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 99
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09d7b8bef0646160800000000000000
+      internalID: 7017840766487091470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b76f6b948e4a810800000000000000
+      internalID: 1775799556390681490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbf7168599b5ab20800000000000000
+      internalID: 3145123966639143858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fec53147548c050800000000000000
+      internalID: 5820978883219746697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499b303d0f5fa380800000000000000
+      internalID: -8957836623568201396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3f42329923c1820800000000000000
+      internalID: 2890240694166025184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf863e3aa9b62cc0800000000000000
+      internalID: -3736094700017905724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86781165d41981a0800000000000000
+      internalID: -6806886455104211318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 67
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf6318a6235b0390800000000000000
+      internalID: -7851090099896619046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfd32a865bffef80800000000000000
+      internalID: -8074959257748643878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1013e721608f80800000000000000
+      internalID: -8106372505325790303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbfd30a7e74e8590800000000000000
+      internalID: -7670114055213941830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d58085297fbd22f0800000000000000
+      internalID: -995929415537883688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e8ee030e7fdbf10800000000000000
+      internalID: 2287256728039755272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93e1cc968030c860800000000000000
+      internalID: 7548086330186654620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd77ce6b954a76a0800000000000000
+      internalID: -6450766982373999148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPS_KingMaskLaugh_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3928e5ba3074e14b0800000000000000
+      internalID: -5467854816495631725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPS_KingMaskLaugh_0: 6471180247824757136
+      SPS_KingMaskLaugh_1: 5489585897752499479
+      SPS_KingMaskLaugh_10: 5820978883219746697
+      SPS_KingMaskLaugh_11: -8957836623568201396
+      SPS_KingMaskLaugh_12: 2890240694166025184
+      SPS_KingMaskLaugh_13: -3736094700017905724
+      SPS_KingMaskLaugh_14: -6806886455104211318
+      SPS_KingMaskLaugh_15: -7851090099896619046
+      SPS_KingMaskLaugh_16: -8074959257748643878
+      SPS_KingMaskLaugh_17: -8106372505325790303
+      SPS_KingMaskLaugh_18: -7670114055213941830
+      SPS_KingMaskLaugh_19: -995929415537883688
+      SPS_KingMaskLaugh_2: -2709693129365285195
+      SPS_KingMaskLaugh_20: 2287256728039755272
+      SPS_KingMaskLaugh_21: 7548086330186654620
+      SPS_KingMaskLaugh_22: -6450766982373999148
+      SPS_KingMaskLaugh_23: -5467854816495631725
+      SPS_KingMaskLaugh_3: -6269968659894894552
+      SPS_KingMaskLaugh_4: 6052509736448515483
+      SPS_KingMaskLaugh_5: 5628198283679326717
+      SPS_KingMaskLaugh_6: -2156536799957030273
+      SPS_KingMaskLaugh_7: 7017840766487091470
+      SPS_KingMaskLaugh_8: 1775799556390681490
+      SPS_KingMaskLaugh_9: 3145123966639143858
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
